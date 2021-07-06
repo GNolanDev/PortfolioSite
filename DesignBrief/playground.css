@@ -1,0 +1,14 @@
+#flag-container {
+  background-color: rgb(0, 36, 125);
+  height: 30vw;
+  margin: 50px auto;
+  position: relative;
+  width: 50vw;
+}
+
+#flag {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(31deg, transparent 45%, lightgray 45%, lightgray 55%, transparent 55%),
+    linear-gradient(329deg, transparent 45%, lightgray 45%, lightgray 55%, transparent 55%);
+}
