@@ -1,93 +1,33 @@
 :root {
-  --flag-blue: rgb(0, 36, 125);
-  --flag-red: rgb(207, 20, 43);
-  /* set this to adjust the size of the flag: 1vw makes the flag take 100% of the viewport width
-   * 0.5vw gives half width etc */
   --flag-unit: 1vw;
 }
 
-#flag-uk-container {
-  background-color: var(--flag-blue);
-  height: calc(60 * var(--flag-unit));
-  margin: auto;
-  width: calc(100 * var(--flag-unit));
+body {
+  min-height: 100vh;
 }
 
-#flag-uk-container:before {
-  content: "";
-  display: block;
+#background-container {
   height: 100%;
+  position: absolute;
+  overflow: hidden;
   width: 100%;
-  background: linear-gradient(
-      transparent 40%,
-      var(--flag-red) 40%,
-      var(--flag-red) 60%,
-      transparent 60%
-    ),
-    linear-gradient(
-      90deg,
-      transparent 44%,
-      var(--flag-red) 44%,
-      var(--flag-red) 56%,
-      transparent 56%
-    ),
-    linear-gradient(transparent 33%, white 33%, white 67%, transparent 67%),
-    linear-gradient(
-      90deg,
-      transparent 40%,
-      white 40%,
-      white 60%,
-      transparent 60%
-    ),
-    /* little red lines here */ /* bottom-right */
-      linear-gradient(
-        31deg,
-        transparent 50%,
-        var(--flag-red) 0,
-        var(--flag-red) 53.4%,
-        transparent 0
-      )
-      calc(50 * var(--flag-unit)) calc(30 * var(--flag-unit)),
-    /* top left */
-      linear-gradient(
-        31deg,
-        transparent 50%,
-        var(--flag-red) 0,
-        var(--flag-red) 53.4%,
-        transparent 0
-      )
-      calc(-50 * var(--flag-unit)) calc(-26 * var(--flag-unit)),
-    /* top right */
-      linear-gradient(
-        329deg,
-        transparent 50%,
-        var(--flag-red) 0,
-        var(--flag-red) 53.4%,
-        transparent 0
-      )
-      calc(50 * var(--flag-unit)) calc(-30 * var(--flag-unit)),
-    /* bottom left */
-      linear-gradient(
-        329deg,
-        transparent 50%,
-        var(--flag-red) 0,
-        var(--flag-red) 53.4%,
-        transparent 0
-      )
-      calc(-50 * var(--flag-unit)) calc(34 * var(--flag-unit)),
-    linear-gradient(
-      31deg,
-      transparent 45%,
-      white 45%,
-      white 55%,
-      transparent 55%
-    ),
-    linear-gradient(
-      329deg,
-      transparent 45%,
-      white 45%,
-      white 55%,
-      transparent 55%
-    );
-  background-repeat: no-repeat;
+  z-index: -2;
+}
+
+#flag-uk-container {
+  position: absolute;
+}
+
+#overlay {
+  background-color: rgba(8, 8, 0, 0.95);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+h1 {
+  color: antiquewhite;
+  font-size: 4rem;
+  text-align: center;
 }
