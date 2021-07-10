@@ -1,0 +1,27 @@
+:root {
+  --flag-unit: 1vw;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#background-container {
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  z-index: -2;
+}
+
+#flag-uk-container {
+  position: absolute;
+}
+
+#overlay {
+  background-color: rgba(8, 8, 0, 0.95);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
