@@ -3,6 +3,7 @@
 }
 
 body {
+  color: antiquewhite;
   min-height: 100vh;
 }
 
@@ -24,4 +25,57 @@ body {
   position: absolute;
   width: 100%;
   z-index: -1;
+}
+
+#pageHeader {
+  background-color: antiquewhite;
+  color: #222222;
+  display: flex;
+  height: 50px;
+}
+
+#pageHeader img {
+  height: 45px;
+  width: 45px;
+}
+
+#homeLogoLink {
+  align-items: center;
+  display: flex;
+}
+
+#pageHeader > nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#pageHeader > nav ul {
+  display: flex;
+}
+
+#hero-container {
+  margin: 0 auto;
+  max-width: 75vw;
+}
+
+.declare-word {
+  color: blueviolet;
+}
+
+.variable-word {
+  color: lightcoral;
+}
+
+.method-word {
+  color: lightskyblue;
+}
+
+.string-word {
+  color: mediumspringgreen;
+}
+
+.tab-1 {
+  margin-left: 2ch;
 }
