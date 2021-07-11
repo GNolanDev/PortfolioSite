@@ -1,5 +1,16 @@
 :root {
+  /* unit to control the size of the flag background */
   --flag-unit: 1vw;
+}
+
+@font-face {
+  font-family: Inconsolata;
+  src: url("../fonts/Inconsolata/Inconsolata.ttf");
+}
+
+@font-face {
+  font-family: "Courier Prime";
+  src: url("../fonts/Courier_Prime/CourierPrime-Regular.ttf");
 }
 
 body {
@@ -15,8 +26,18 @@ body {
   z-index: -2;
 }
 
-#flag-uk-container {
+.flag-uk-container {
   position: absolute;
+}
+
+#flagBackground2 {
+  display: block;
+  top: calc(60 * var(--flag-unit));
+}
+
+#flagBackground3 {
+  display: block;
+  top: calc(2 * (60 * var(--flag-unit)));
 }
 
 #overlay {
@@ -28,10 +49,11 @@ body {
 }
 
 #pageHeader {
-  background-color: antiquewhite;
-  color: #222222;
+  /* background-color: antiquewhite; */
+  color: antiquewhite;
   display: flex;
   height: 50px;
+  margin-bottom: 5vw;
 }
 
 #pageHeader img {
@@ -48,6 +70,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
   width: 100%;
 }
 
@@ -56,12 +79,28 @@ body {
 }
 
 #hero-container {
+  font-family: "Courier Prime", monospace;
   margin: 0 auto;
   max-width: 75vw;
 }
 
+#hero-content {
+  background-image: linear-gradient(
+    110deg,
+    rgba(100, 100, 100, 0.1),
+    rgba(0, 0, 0, 0.1) 100%
+  );
+  border-radius: 6vw;
+  box-shadow: -1vw -1vw 2vw #404040, 1vw 1vw 2vw black;
+  box-sizing: content-box;
+  margin: 0 auto;
+  max-width: 35em;
+  overflow: hidden;
+  padding: 5vw;
+}
+
 .declare-word {
-  color: blueviolet;
+  color: orchid;
 }
 
 .variable-word {
@@ -76,6 +115,19 @@ body {
   color: mediumspringgreen;
 }
 
-.tab-1 {
-  margin-left: 2ch;
+.tab {
+  padding-left: 2ch;
+  text-indent: -2ch;
+}
+
+@media (min-aspect-ratio: 5/3) {
+  #flagBackground2 {
+    display: none;
+  }
+}
+
+@media (min-aspect-ratio: 5/6) {
+  #flagBackground3 {
+    display: none;
+  }
 }

@@ -6,7 +6,7 @@
   --flag-unit: 1vw;
 }
 
-#flag-uk-container {
+.flag-uk-container {
   background-color: var(--flag-blue);
   height: calc(60 * var(--flag-unit));
   left: 0;
@@ -15,7 +15,7 @@
   width: calc(100 * var(--flag-unit) - 17px);
 }
 
-#flag-uk-container:before {
+.flag-uk-container:before {
   content: "";
   display: block;
   height: 100%;

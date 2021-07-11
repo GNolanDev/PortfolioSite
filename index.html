@@ -11,7 +11,9 @@
   </head>
   <body>
     <div id="background-container">
-      <div id="flag-uk-container"></div>
+      <div class="flag-uk-container"></div>
+      <div class="flag-uk-container" id="flagBackground2"></div>
+      <div class="flag-uk-container" id="flagBackground3"></div>
     </div>
     <div id="overlay"></div>
 
@@ -22,7 +24,7 @@
             class="logo logo-light"
             id="navbarLogo"
             alt=""
-            src="images/logos/colour_beard_no_eb_thicker.svg"
+            src="images/logos/colour_beard_no_eb_ondarkbg_thicker.svg"
           />
           <h1>GNolan</h1>
         </a>
@@ -39,40 +41,48 @@
     <main>
       <section id="hero-container">
         <div id="hero-content">
-          <span class="declare-word">const</span>
-          <span class="variable-word">gareth</span>
-          <span class="method-word">=</span> {<br />
-          <div class="tab-1">
-            <span class="variable-word">status</span>:
-            <span class="string-word">"aspiring full stack developer"</span
-            >,<br />
-            <span class="variable-word">background</span>:
-            <span class="string-word">"eclectic"</span>,<br />
-            <span class="variable-word">skills</span>: [
-            <span class="string-word">"html5"</span>,<br />
-            <span class="string-word">"css3"</span>,<br />
-            <span class="string-word">"js"</span>,<br />
-            <span class="string-word">"php"</span>,<br />
-            <span class="string-word">"sql"</span>,<br />
-            <span class="string-word">"android(java & xml)"</span>,<br />
-            <span class="string-word">"selenium testing"</span>,<br />
+          <div class="tab">
+            <span class="declare-word">const</span>
+            <span class="variable-word">gareth</span>
+            <span class="method-word">=</span> {
+            <div class="tab">
+              <span class="variable-word">status</span>:
+              <span class="string-word">"aspiring full stack developer"</span>,
+            </div>
+            <div class="tab">
+              <span class="variable-word">background</span>:
+              <span class="string-word">"eclectic"</span>,<br />
+            </div>
+            <div class="tab">
+              <span class="variable-word">skills</span>: [<br />
+              <span class="string-word">"html5"</span>,<br />
+              <span class="string-word">"css3"</span>,<br />
+              <span class="string-word">"js"</span>,<br />
+              <span class="string-word">"php"</span>,<br />
+              <span class="string-word">"sql"</span>,<br />
+              <span class="string-word">"android(java & xml)"</span>,<br />
+              <span class="string-word">"selenium testing"</span>,
+            </div>
             ].<span class="method-word">concat</span>(<span
               class="variable-word"
               >more</span
             >),<br />
-            <span class="variable-word">areasOfInterest</span>: [<span
-              class="string-word"
-              >"education"</span
-            >, <span class="string-word">"outdoor activities"</span>,
-            <span class="string-word">"aviation"</span>].<span
-              class="method-word"
-              >concat</span
-            >(<br /><span class="variable-word">lotsMore</span><br />),<br />
-            <span class="variable-word">future</span>: [<br />
-            <span class="string-word"
-              >"building things that make the world a better place"</span
-            >,<br />
-            <span class="string-word">"learning more technologies"</span>,<br />
+            <div class="tab">
+              <span class="variable-word">areasOfInterest</span>: [
+              <span class="string-word">"education"</span>,
+              <span class="string-word">"outdoor activities"</span>,
+              <span class="string-word">"aviation"</span>].<span
+                class="method-word"
+                >concat</span
+              >(<span class="variable-word">lotsMore</span>),
+            </div>
+            <div class="tab">
+              <span class="variable-word">future</span>: [
+              <span class="string-word"
+                >"building things that make the world a better place"</span
+              >,<br />
+              <span class="string-word">"learning more technologies"</span>,
+            </div>
             ],<br />
           </div>
           };
