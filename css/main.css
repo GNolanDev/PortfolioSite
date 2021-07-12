@@ -95,19 +95,42 @@ img.logo.logo-dark {
 #homeLogoLink {
   align-items: center;
   display: flex;
-  margin-left: 1vw;
+  margin-left: 10px;
+}
+
+#hamburgerIcon {
+  fill: var(--color-light-text);
+  margin: auto 20px;
+}
+
+#pageHeader .hamburger {
+  transition: all 0.3s ease-out;
+}
+
+#pageHeader.expanded .tophamburger {
+  transform: translate3d(5px, 3px, 0) rotate(45deg);
+  transform-origin: top left;
+}
+
+#pageHeader.expanded .middlehamburger {
+  height: 0;
+  transition: all 0.1s;
+}
+
+#pageHeader.expanded .bottomhamburger {
+  transform: translate3d(5px, 3px, 0) rotate(45deg);
+  transform-origin: top left;
 }
 
 #pageHeader > nav {
   align-items: center;
-  display: hidden;
   justify-content: space-between;
   overflow: hidden;
   width: 100%;
 }
 
 #pageHeader > nav ul {
-  display: flex;
+  display: none;
 }
 
 main {
@@ -199,7 +222,7 @@ footer {
 }
 
 @media only screen and (min-width: 600px) {
-  #pageHeader > nav {
+  #pageHeader > nav ul {
     display: flex;
   }
 }
