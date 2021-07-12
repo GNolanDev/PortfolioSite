@@ -43,7 +43,7 @@ body {
 #overlay {
   background-color: rgba(8, 8, 0, 0.95);
   height: 100%;
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: -1;
 }
@@ -56,7 +56,16 @@ body {
   margin-bottom: 5vw;
 }
 
-#pageHeader img {
+img.logo.logo-dark {
+  content: url("../images/logos/colour_beard_no_eb_ondarkbg_thicker.svg");
+}
+
+#logoNavbar {
+  height: 45px;
+  width: 45px;
+}
+
+#logoDecoration {
   height: 45px;
   width: 45px;
 }
@@ -118,6 +127,26 @@ body {
 .tab {
   padding-left: 2ch;
   text-indent: -2ch;
+}
+
+#socialContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4vw;
+}
+
+.social-media {
+  background-color: #333333;
+  border: 1px solid #222222;
+  border-radius: 4px;
+  height: 36px;
+  margin: 2px;
+  width: 36px;
+}
+
+#footerAddress {
+  padding: 2em 0;
+  text-align: center;
 }
 
 @media (min-aspect-ratio: 5/3) {
