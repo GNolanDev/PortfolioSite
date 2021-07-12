@@ -15,12 +15,15 @@
 
 body {
   color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   min-height: 100vh;
 }
 
 #background-container {
   height: 100%;
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   width: 100%;
   z-index: -2;
@@ -52,6 +55,7 @@ body {
   /* background-color: antiquewhite; */
   color: antiquewhite;
   display: flex;
+  flex-grow: 0;
   height: 50px;
   margin-bottom: 5vw;
 }
@@ -87,6 +91,10 @@ img.logo.logo-dark {
   display: flex;
 }
 
+main {
+  flex-grow: 0;
+}
+
 #hero-container {
   font-family: "Courier Prime", monospace;
   margin: 0 auto;
@@ -103,7 +111,7 @@ img.logo.logo-dark {
   box-shadow: -1vw -1vw 2vw #404040, 1vw 1vw 2vw black;
   box-sizing: content-box;
   margin: 0 auto;
-  max-width: 35em;
+  max-width: 40em;
   overflow: hidden;
   padding: 5vw;
 }
@@ -129,23 +137,32 @@ img.logo.logo-dark {
   text-indent: -2ch;
 }
 
+#footer-spacer {
+  flex-grow: 1;
+}
+
+footer {
+  flex-grow: 0;
+  width: 100%;
+}
+
 #socialContainer {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 4vw;
+  margin-top: 60px;
 }
 
 .social-media {
   background-color: #333333;
   border: 1px solid #222222;
   border-radius: 4px;
-  height: 36px;
+  height: 40px;
   margin: 2px;
-  width: 36px;
+  width: 40px;
 }
 
 #footerAddress {
-  padding: 2em 0;
+  padding: 28px 0;
   text-align: center;
 }
 
