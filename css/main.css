@@ -14,9 +14,9 @@
   width: 100%;
 } */
 
-:root * {
+/* :root * {
   border: 1px solid red;
-}
+} */
 
 @font-face {
   font-family: "Red Rose";
@@ -60,6 +60,10 @@ body {
   font-family: Roboto-Regular, Verdana, Geneva, Tahoma, sans-serif;
   justify-content: space-between;
   min-height: 100vh;
+}
+
+button:focus-visible {
+  box-shadow: 0 0 4px 0 black, 0 0 14px 0 var(--color-dark-foreground);
 }
 
 #background-container {
@@ -160,13 +164,16 @@ body {
 }
 
 #pageHeader > nav ul {
-  transition: opacity 0.5s ease, left 0.3s ease;
+  transition: padding 0.5s ease, opacity 0.5s ease, left 0.3s ease,
+    width 0.2s ease;
   background-color: var(--color-dark-background);
   display: flex;
   flex-direction: column;
   height: calc(100% - 60px);
   left: 100%;
   opacity: 0;
+  overflow: hidden;
+  padding: 0;
   position: absolute;
   top: 58px;
   width: 0;
@@ -180,7 +187,8 @@ body {
   left: 0;
   opacity: 1;
   padding: 10px 20px;
-  transition: opacity 0.3s ease, left 0.1s ease-in;
+  transition: padding 0.01s ease 0.05s, opacity 0.4s ease, left 0.05s ease-in,
+    width 0.01s ease-in 0.05s;
   width: 100%;
 }
 

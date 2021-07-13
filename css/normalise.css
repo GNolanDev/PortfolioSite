@@ -140,6 +140,14 @@ a {
   text-decoration: none;
 }
 
+button {
+  all: unset;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
 /* *:focus {
   outline: none;
 } */
