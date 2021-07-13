@@ -1,18 +1,18 @@
 :root {
   /* unit to control the size of the flag background */
   --flag-unit: 1vw;
-  --color-light-text: #f9f9f9;
+  --color-dark-foreground: #f9f9f9;
+  --color-dark-background: #101010;
 }
+
+/* :root * {
+  border: 1px solid red;
+} */
 
 @font-face {
   font-family: "Red Rose";
   src: url("../fonts/RedRose-VariableFont_wght.ttf");
 }
-
-/* @font-face {
-  font-family: Forum;
-  src: url("../fonts/Forum-Regular.ttf");
-} */
 
 @font-face {
   font-family: "Courier Prime";
@@ -24,8 +24,28 @@
   src: url("../fonts/Roboto-Regular.ttf");
 }
 
+@font-face {
+  font-family: Raleway;
+  src: url("../fonts/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: RalewayDots;
+  src: url("../fonts/RalewayDots-Regular.ttf");
+}
+
+@font-face {
+  font-family: PoiretOne;
+  src: url("../fonts/PoiretOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: Forum;
+  src: url("../fonts/Forum-Regular.ttf");
+}
+
 body {
-  color: var(--color-light-text);
+  color: var(--color-dark-foreground);
   display: flex;
   flex-direction: column;
   font-family: Roboto-Regular, Verdana, Geneva, Tahoma, sans-serif;
@@ -64,7 +84,7 @@ body {
 }
 
 #pageHeader {
-  color: var(--color-light-text);
+  color: var(--color-dark-foreground);
   display: flex;
   flex-grow: 0;
   font-family: "Red Rose", Verdana, Geneva, Tahoma, sans-serif;
@@ -74,11 +94,12 @@ body {
 }
 
 #pageHeader h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
   margin-left: 1vw;
 }
 
-img.logo.logo-dark {
+.logo-dark {
   content: url("../images/logos/colour_beard_no_eb_ondarkbg_thicker.svg");
 }
 
@@ -99,7 +120,7 @@ img.logo.logo-dark {
 }
 
 #hamburgerIcon {
-  fill: var(--color-light-text);
+  fill: var(--color-dark-foreground);
   margin: auto 20px;
 }
 
@@ -108,29 +129,51 @@ img.logo.logo-dark {
 }
 
 #pageHeader.expanded .tophamburger {
-  transform: translate3d(5px, 3px, 0) rotate(45deg);
+  transform: translate3d(5px, 5px, 0) rotate(45deg);
   transform-origin: top left;
 }
 
 #pageHeader.expanded .middlehamburger {
-  height: 0;
-  transition: all 0.1s;
+  width: 0;
 }
 
 #pageHeader.expanded .bottomhamburger {
-  transform: translate3d(5px, 3px, 0) rotate(45deg);
+  transform: translate3d(-16px, 6px, 0) rotate(-45deg);
   transform-origin: top left;
 }
 
 #pageHeader > nav {
   align-items: center;
+  display: flex;
   justify-content: space-between;
   overflow: hidden;
   width: 100%;
 }
 
 #pageHeader > nav ul {
-  display: none;
+  transition: position 0.1s, opacity 0.3s ease;
+  background-color: var(--color-dark-background);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  left: 100%;
+  opacity: 0;
+  padding: 10px 20px;
+  position: absolute;
+  top: 58px;
+  width: 100%;
+}
+
+#pageHeader.expanded > nav ul {
+  left: 0;
+  opacity: 1;
+}
+
+#pageHeader > nav ul li {
+  font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  padding: 10px 0;
 }
 
 main {
@@ -157,6 +200,10 @@ main {
   max-width: 40em;
   overflow: hidden;
   padding: 5vw;
+}
+
+#hero-content a {
+  text-decoration: underline;
 }
 
 .declare-word {
@@ -204,7 +251,7 @@ footer {
   width: 40px;
 }
 
-#footerAddress {
+#footerEmail {
   padding: 28px 0;
   text-align: center;
 }
@@ -222,7 +269,7 @@ footer {
 }
 
 @media only screen and (min-width: 600px) {
-  #pageHeader > nav ul {
-    display: flex;
-  }
+  /* #pageHeader > nav ul {
+    flex-direction: row;
+  } */
 }

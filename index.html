@@ -19,54 +19,56 @@
     <header id="pageHeader">
       <nav>
         <a href="index.html#pageHeader" id="homeLogoLink">
-          <img class="logo logo-dark" id="logoNavbar" alt="" />
+          <div class="logo logo-dark" id="logoNavbar"></div>
           <h1>GNolan</h1>
         </a>
         <ul>
-          <a href="about.html"><li>About Me</li></a>
-          <a href="skills.html"><li>Skills</li></a>
-          <a href="projects.html"><li>Projects</li></a>
-          <a href="blog.html"><li>Blog</li></a>
-          <a href="resources.html"><li>Resources</li></a>
-          <a href="contact.html"><li>Contact</li></a>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
+        <svg
+          id="hamburgerIcon"
+          height="29px"
+          width="30px"
+          viewBox="0 0 29 30"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <g>
+            <g>
+              <rect
+                class="tophamburger hamburger"
+                x="0"
+                y="0"
+                width="29"
+                height="2"
+                rx="1"
+              ></rect>
+              <rect
+                class="middlehamburger hamburger"
+                x="0"
+                y="14"
+                width="29"
+                height="2"
+                rx="1"
+              ></rect>
+              <rect
+                class="bottomhamburger hamburger"
+                x="0"
+                y="28"
+                width="29"
+                height="2"
+                rx="1"
+              ></rect>
+            </g>
+          </g>
+        </svg>
       </nav>
-      <svg
-        id="hamburgerIcon"
-        height="29px"
-        width="30px"
-        viewBox="0 0 29 30"
-        version="1.1"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-      >
-        <g>
-          <rect
-            class="tophamburger hamburger"
-            x="0"
-            y="0"
-            width="29"
-            height="2"
-            rx="1"
-          ></rect>
-          <rect
-            class="middlehamburger hamburger"
-            x="0"
-            y="14"
-            width="29"
-            height="2"
-            rx="1"
-          ></rect>
-          <rect
-            class="bottomhamburger hamburger"
-            x="0"
-            y="28"
-            width="29"
-            height="2"
-            rx="1"
-          ></rect>
-        </g>
-      </svg>
     </header>
     <main>
       <section id="hero-container">
@@ -81,7 +83,9 @@
             </div>
             <div class="tab">
               <span class="variable-word">background</span>:
-              <span class="string-word">"eclectic"</span>,<br />
+              <span class="string-word"
+                >"<a href="about.html">eclectic</a>"</span
+              >,<br />
             </div>
             <div class="tab">
               <span class="variable-word">skills</span>: [<br />
@@ -121,17 +125,19 @@
     </main>
     <div id="footerSpacer"></div>
     <footer>
-      <section id="socialContainer">
-        <div class="social-media" id="logoFB"></div>
-        <div class="social-media" id="logoFB"></div>
-        <div id="logoDecorationContainer">
-          <img class="logo logo-dark" id="logoDecoration" alt="" />
+      <address>
+        <section id="socialContainer">
+          <div class="social-media" id="logoFB"></div>
+          <div class="social-media" id="logoTW"></div>
+          <div id="logoDecorationContainer">
+            <div class="logo logo-dark" id="logoDecoration"></div>
+          </div>
+          <div class="social-media" id="logoLI"></div>
+          <div class="social-media" id="logoEM"></div>
+        </section>
+        <div id="footerEmail">
+          <a href="mailto:GNolanDev@gmail.com">GNolanDev@gmail.com</a>
         </div>
-        <div class="social-media" id="logoFB"></div>
-        <div class="social-media" id="logoFB"></div>
-      </section>
-      <address id="footerAddress">
-        <a href="mailto:GNolanDev@gmail.com">GNolanDev@gmail.com</a>
       </address>
     </footer>
   </body>
