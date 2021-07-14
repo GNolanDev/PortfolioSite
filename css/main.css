@@ -108,7 +108,7 @@ button:focus-visible {
   padding-top: 4px;
 }
 
-#pageHeader h1 {
+#headerName {
   font-size: 2.5rem;
   letter-spacing: 0.5rem;
   margin-left: 1vw;

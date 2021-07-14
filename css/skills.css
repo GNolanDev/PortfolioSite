@@ -1,0 +1,9 @@
+main {
+  flex-grow: 1;
+}
+
+h1 {
+  font-family: "Red Rose", Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
