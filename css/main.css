@@ -332,6 +332,6 @@ footer {
 @media only screen and (max-width: 380px) {
   /* alter text in main element to fit smaller screens a little better */
   #hero-content {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
