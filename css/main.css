@@ -1,22 +1,21 @@
 :root {
   /* unit to control the size of the flag background */
   --flag-unit: 1vw;
-  --color-dark-foreground: #f9f9f9;
-  --color-dark-background: #101010;
+  --color-foreground: #f9f9f9;
+  --color-background: #101010;
 }
 
 /* removed browser default highlighting as it looks awful! */
-/* *:focus::after {
-  content: "";
-  display: block;
-  height: 2px;
-  background-color: var(--color-dark-foreground);
-  width: 100%;
-} */
+*:focus {
+  outline: 2px dotted var(--color-foreground);
+  outline-offset: 4px;
+}
 
 /* :root * {
   border: 1px solid red;
 } */
+
+/* TODO: Social media Icons  */
 
 @font-face {
   font-family: "Red Rose";
@@ -54,7 +53,7 @@
 }
 
 body {
-  color: var(--color-dark-foreground);
+  color: var(--color-foreground);
   display: flex;
   flex-direction: column;
   font-family: Roboto-Regular, Verdana, Geneva, Tahoma, sans-serif;
@@ -63,7 +62,8 @@ body {
 }
 
 button:focus-visible {
-  box-shadow: 0 0 4px 0 black, 0 0 14px 0 var(--color-dark-foreground);
+  box-shadow: 0 0 4px 0 var(--color-background),
+    0 0 14px 0 var(--color-foreground);
 }
 
 #background-container {
@@ -97,7 +97,7 @@ button:focus-visible {
 }
 
 #pageHeader {
-  color: var(--color-dark-foreground);
+  color: var(--color-foreground);
   display: flex;
   flex-grow: 0;
   font-family: "Red Rose", Verdana, Geneva, Tahoma, sans-serif;
@@ -133,7 +133,7 @@ button:focus-visible {
 }
 
 #hamburgerIcon {
-  fill: var(--color-dark-foreground);
+  fill: var(--color-foreground);
   margin: auto 20px;
 }
 
@@ -159,14 +159,13 @@ button:focus-visible {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  overflow: hidden;
   width: 100%;
 }
 
 #pageHeader > nav ul {
-  transition: padding 0.5s ease, opacity 0.5s ease, left 0.3s ease,
-    width 0.2s ease;
-  background-color: var(--color-dark-background);
+  transition: padding 0.01s 0.5s, opacity 0.5s ease, left 0.01s 0.51s,
+    width 0.01s 0.5s;
+  background-color: var(--color-background);
   display: flex;
   flex-direction: column;
   height: calc(100% - 60px);
@@ -196,7 +195,7 @@ button:focus-visible {
   font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2rem;
   letter-spacing: 0.1rem;
-  line-height: 2rem;
+  line-height: 2;
   padding: 10px 0;
   transition: font-size ease 0.2s;
 }
@@ -298,8 +297,19 @@ footer {
   }
 }
 
-@media only screen and (min-width: 600px) {
-  /* #pageHeader > nav ul {
+@media only screen and (min-width: 900px) {
+  #pageHeader > nav ul {
     flex-direction: row;
-  } */
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    width: revert;
+  }
+
+  #pageHeader > nav ul li {
+    font-size: 1rem;
+    line-height: 1;
+  }
 }
