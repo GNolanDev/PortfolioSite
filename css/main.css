@@ -201,8 +201,9 @@ button:focus-visible {
 }
 
 #pageHeader > nav ul li:hover,
-#pageHeader > nav ul li:focus {
+#pageHeader > nav ul li a:focus {
   font-size: 2.2rem;
+  transition: font-size ease 0.2s;
 }
 
 main {
@@ -298,11 +299,19 @@ footer {
 }
 
 @media only screen and (min-width: 900px) {
+  #hamburgerIcon {
+    display: none;
+  }
+
   #pageHeader > nav ul {
+    align-items: center;
     flex-direction: row;
+    flex-grow: 1;
     height: 100%;
+    justify-content: flex-end;
     left: 0;
     opacity: 1;
+    padding-right: 1vw;
     position: relative;
     top: 0;
     width: revert;
@@ -311,5 +320,18 @@ footer {
   #pageHeader > nav ul li {
     font-size: 1rem;
     line-height: 1;
+    padding: 0 1vw;
+  }
+
+  #pageHeader > nav ul li:hover,
+  #pageHeader > nav ul li a:focus {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  /* alter text in main element to fit smaller screens a little better */
+  #hero-content {
+    font-size: 0.9rem;
   }
 }
