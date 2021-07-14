@@ -1,0 +1,1 @@
+Use php include to add header and footer once xampp is installed on desktop.

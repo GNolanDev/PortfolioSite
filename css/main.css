@@ -1,8 +1,10 @@
 :root {
   /* unit to control the size of the flag background */
   --flag-unit: 1vw;
+  /* default dark theme style */
   --color-foreground: #f9f9f9;
   --color-background: #101010;
+  --logo-url: url("../images/logos/colour_beard_no_eb_ondarkbg_thicker.svg");
 }
 
 /* removed browser default highlighting as it looks awful! */
@@ -112,8 +114,8 @@ button:focus-visible {
   margin-left: 1vw;
 }
 
-.logo-dark {
-  content: url("../images/logos/colour_beard_no_eb_ondarkbg_thicker.svg");
+.logo {
+  content: var(--logo-url);
 }
 
 #logoNavbar {
@@ -130,6 +132,7 @@ button:focus-visible {
   align-items: center;
   display: flex;
   margin-left: 10px;
+  overflow: hidden;
 }
 
 #hamburgerIcon {
@@ -185,19 +188,28 @@ button:focus-visible {
 #pageHeader.expanded > nav ul {
   left: 0;
   opacity: 1;
+  overflow: visible;
   padding: 10px 20px;
   transition: padding 0.01s ease 0.05s, opacity 0.4s ease, left 0.05s ease-in,
     width 0.01s ease-in 0.05s;
   width: 100%;
 }
 
+/* collapse main content on flyout menu open - only needed for v low 
+ * aspect ratio viewports where scrolling of menu is possible */
+#pageHeader.expanded ~ * {
+  height: 0;
+  overflow: hidden;
+}
+
 #pageHeader > nav ul li {
   font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2rem;
   letter-spacing: 0.1rem;
-  line-height: 2;
-  padding: 10px 0;
+  line-height: 3rem;
+  padding: 4px 0;
   transition: font-size ease 0.2s;
+  white-space: nowrap;
 }
 
 #pageHeader > nav ul li:hover,
@@ -208,53 +220,6 @@ button:focus-visible {
 
 main {
   flex-grow: 0;
-}
-
-#hero-container {
-  font-family: "Courier Prime", monospace;
-  margin: 0 auto;
-  max-width: 75vw;
-}
-
-#hero-content {
-  background-image: linear-gradient(
-      110deg,
-      rgba(161, 35, 35, 0.1) 0%,
-      rgba(0, 0, 0, 0.1) 100%
-    ),
-    linear-gradient(rgba(0, 0, 129, 0.3) 0%, rgba(0, 0, 129, 0.3) 100%);
-  border-radius: 6vw;
-  box-shadow: -1vw -1vw 2vw #404040, 1vw 1vw 2vw black;
-  box-sizing: content-box;
-  margin: 0 auto;
-  max-width: 40em;
-  overflow: hidden;
-  padding: 5vw;
-}
-
-#hero-content a {
-  text-decoration: underline;
-}
-
-.declare-word {
-  color: orchid;
-}
-
-.variable-word {
-  color: lightcoral;
-}
-
-.method-word {
-  color: lightskyblue;
-}
-
-.string-word {
-  color: mediumspringgreen;
-}
-
-.tab {
-  padding-left: 2ch;
-  text-indent: -2ch;
 }
 
 #footer-spacer {
@@ -305,6 +270,7 @@ footer {
 
   #pageHeader > nav ul {
     align-items: center;
+    background-color: transparent;
     flex-direction: row;
     flex-grow: 1;
     height: 100%;
@@ -317,21 +283,36 @@ footer {
     width: revert;
   }
 
-  #pageHeader > nav ul li {
-    font-size: 1rem;
-    line-height: 1;
+  #pageHeader > nav ul a {
+    align-items: center;
+    display: flex;
     padding: 0 1vw;
+  }
+
+  #pageHeader > nav ul li {
+    display: flex;
+    font-size: 1rem;
+    height: 100%;
+    line-height: 1;
+    padding: 0;
   }
 
   #pageHeader > nav ul li:hover,
   #pageHeader > nav ul li a:focus {
     font-size: 1.3rem;
   }
-}
 
-@media only screen and (max-width: 380px) {
-  /* alter text in main element to fit smaller screens a little better */
-  #hero-content {
-    font-size: 0.8rem;
+  /* put back main content on larger screens in case of window resizing */
+  #pageHeader.expanded ~ * {
+    height: revert;
+    overflow: revert;
+  }
+
+  #pageHeader.expanded > nav ul {
+    width: revert;
+  }
+
+  #pageHeader > nav ul li {
+    transition: none;
   }
 }

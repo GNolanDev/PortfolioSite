@@ -1,0 +1,53 @@
+#hero-container {
+  font-family: "Courier Prime", monospace;
+  margin: 0 auto;
+  max-width: 75vw;
+}
+
+#hero-content {
+  background-image: linear-gradient(
+      110deg,
+      rgba(161, 35, 35, 0.1) 0%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    linear-gradient(rgba(0, 0, 129, 0.3) 0%, rgba(0, 0, 129, 0.3) 100%);
+  border-radius: 6vw;
+  box-shadow: -1vw -1vw 2vw #404040, 1vw 1vw 2vw black;
+  box-sizing: content-box;
+  margin: 0 auto;
+  max-width: 40em;
+  overflow: hidden;
+  padding: 5vw;
+}
+
+#hero-content a {
+  text-decoration: underline;
+}
+
+.declare-word {
+  color: orchid;
+}
+
+.variable-word {
+  color: lightcoral;
+}
+
+.method-word {
+  color: lightskyblue;
+}
+
+.string-word {
+  color: mediumspringgreen;
+}
+
+.tab {
+  padding-left: 2ch;
+  text-indent: -2ch;
+}
+
+@media only screen and (max-width: 380px) {
+  /* alter text in main element to fit smaller screens a little better */
+  #hero-content {
+    font-size: 0.8rem;
+  }
+}
