@@ -7,3 +7,17 @@ h1 {
   text-align: center;
   font-size: 2rem;
 }
+
+#skillsContainer {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.skill img {
+  height: 50px;
+  width: 50px;
+}
+
+.skill-description {
+  max-width: 20em;
+}
