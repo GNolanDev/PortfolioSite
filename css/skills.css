@@ -2,8 +2,12 @@ main {
   flex-grow: 1;
 }
 
-h1 {
+h1,
+h2 {
   font-family: "Red Rose", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
   text-align: center;
   font-size: 2rem;
 }
@@ -11,6 +15,7 @@ h1 {
 #skillsContainer {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 
 .skill img {
@@ -19,5 +24,43 @@ h1 {
 }
 
 .skill-description {
+  align-self: flex-start;
+  font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
+  grid-area: desc;
   max-width: 20em;
+  text-align: justify;
+}
+
+.skill-description a {
+  text-decoration: underline;
+}
+
+.skill {
+  align-items: center;
+  display: grid;
+  grid-template: 100px 1fr / 100px 1fr;
+  grid-template-areas:
+    "logo title"
+    "desc desc";
+  justify-items: center;
+  margin: 40px 20px 0;
+}
+
+.skill-logo {
+  grid-area: logo;
+}
+
+.skill h2 {
+  font-size: 1.7rem;
+  grid-area: title;
+}
+
+@media only screen and (min-width: 550px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
 }
