@@ -1,5 +1,6 @@
 #hero-container {
   font-family: "Courier Prime", monospace;
+  line-height: 1.45;
   margin: 0 auto;
   max-width: 75vw;
 }
