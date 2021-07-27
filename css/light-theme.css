@@ -2,4 +2,8 @@
   --color-background: #f9f9f9;
   --color-foreground: #101010;
   --logo-url: url("../images/logos/colour_beard_no_eb_thicker.svg");
+  --link-underline: #b3ab93;
+  --link-underline-thispage: #9d9273;
+  --media-icon-background: #efece4;
+  --media-icon-border: none;
 }
