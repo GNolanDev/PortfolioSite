@@ -1,8 +1,10 @@
 :root {
   /* unit to control the size of the flag background */
   --flag-unit: 1vw;
+  /* default dark theme style */
   --color-foreground: #f9f9f9;
   --color-background: #101010;
+  --logo-url: url("../images/logos/colour_beard_no_eb_ondarkbg_thicker.svg");
 }
 
 /* removed browser default highlighting as it looks awful! */
@@ -113,7 +115,7 @@ button:focus-visible {
 }
 
 .logo-dark {
-  content: url("../images/logos/colour_beard_no_eb_ondarkbg_thicker.svg");
+  content: var(--logo-url);
 }
 
 #logoNavbar {
@@ -317,10 +319,18 @@ footer {
     width: revert;
   }
 
-  #pageHeader > nav ul li {
-    font-size: 1rem;
-    line-height: 1;
+  #pageHeader > nav ul a {
+    align-items: center;
+    display: flex;
     padding: 0 1vw;
+  }
+
+  #pageHeader > nav ul li {
+    display: flex;
+    font-size: 1rem;
+    height: 100%;
+    line-height: 1;
+    padding: 0;
   }
 
   #pageHeader > nav ul li:hover,
