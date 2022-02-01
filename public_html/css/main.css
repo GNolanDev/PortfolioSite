@@ -4,7 +4,7 @@
   /* default dark theme style */
   --color-foreground: #f9f9f9;
   --color-background: #101010;
-  --logo-url: url("../images/logos/colour_beard_no_eb_ondarkbg_thicker.svg");
+  --logo-url: url("../assets/images/logos/colour_beard_no_eb_ondarkbg_thicker.svg");
 }
 
 /* removed browser default highlighting as it looks awful! */
@@ -21,37 +21,37 @@
 
 @font-face {
   font-family: "Red Rose";
-  src: url("../fonts/RedRose-VariableFont_wght.ttf");
+  src: url("../assets/fonts/RedRose-VariableFont_wght.ttf");
 }
 
 @font-face {
   font-family: "Courier Prime";
-  src: url("../fonts/Courier_Prime/CourierPrime-Regular.ttf");
+  src: url("../assets/fonts/Courier_Prime/CourierPrime-Regular.ttf");
 }
 
 @font-face {
   font-family: Roboto-Regular;
-  src: url("../fonts/Roboto-Regular.ttf");
+  src: url("../assets/fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
   font-family: Raleway;
-  src: url("../fonts/Raleway-VariableFont_wght.ttf");
+  src: url("../assets/fonts/Raleway-VariableFont_wght.ttf");
 }
 
 @font-face {
   font-family: RalewayDots;
-  src: url("../fonts/RalewayDots-Regular.ttf");
+  src: url("../assets/fonts/RalewayDots-Regular.ttf");
 }
 
 @font-face {
   font-family: PoiretOne;
-  src: url("../fonts/PoiretOne-Regular.ttf");
+  src: url("../assets/fonts/PoiretOne-Regular.ttf");
 }
 
 @font-face {
   font-family: Forum;
-  src: url("../fonts/Forum-Regular.ttf");
+  src: url("../assets/fonts/Forum-Regular.ttf");
 }
 
 body {
