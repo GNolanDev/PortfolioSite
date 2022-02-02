@@ -76,6 +76,10 @@
     ?>
     <script src="src/menu.js"></script>
     <script src="src/animate-code.js"></script>
+    <script>
+        document.getElementById("pageHeader").classList.add("visible");
+        document.getElementById("pageFooter").classList.add("visible");
+    </script>
 </body>
 
 </html>

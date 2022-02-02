@@ -1,5 +1,5 @@
 <!-- footer for all pages on portfolio site -->
-<footer>
+<footer id="pageFooter">
     <address>
         <section id="socialContainer">
             <div class="social-media" id="logoFB"></div>

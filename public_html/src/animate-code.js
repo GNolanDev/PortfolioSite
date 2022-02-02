@@ -44,6 +44,6 @@ arrayOfWords.forEach((word) => {
     }, initialDelay + runningTimeDelay);
     runningTimeDelay += 10 + Math.floor(Math.random() * 110);
   }
-  // add extra random delay as if pausing after roughly ~10 words
+  // add extra random delay as if pausing after roughly ~7 words
   runningTimeDelay += Math.random() > 0.15 ? 0 : 750;
 });

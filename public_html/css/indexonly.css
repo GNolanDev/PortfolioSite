@@ -80,4 +80,14 @@
   }
 }
 
-/* plain text introduction to portfolio site - animate in after main splash */
+/* other animation */
+#pageHeader,
+#pageFooter {
+  opacity: 0;
+  transition: opacity 12s ease-in 4s;
+}
+
+#pageHeader.visible,
+#pageFooter.visible {
+  opacity: 1;
+}
