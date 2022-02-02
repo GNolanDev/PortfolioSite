@@ -328,3 +328,7 @@ footer {
     width: revert;
   }
 }
+
+.hidden {
+  display: none;
+}
