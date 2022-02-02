@@ -26,7 +26,7 @@
     <div id="overlay"></div>
     <header id="pageHeader">
       <nav>
-        <a href="index.html#pageHeader" id="homeLogoLink">
+        <a href="index.php#pageHeader" id="homeLogoLink">
           <div class="logo" id="logoNavbar"></div>
           <span id="headerName">GNolan</span>
         </a>
@@ -70,12 +70,12 @@
           </svg>
         </button>
         <ul id="menu">
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="skills.html" class="thispage">Skills</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.php">About Me</a></li>
+          <li><a href="skills.php" class="thispage">Skills</a></li>
+          <li><a href="projects.php">Projects</a></li>
+          <li><a href="blog.php">Blog</a></li>
+          <li><a href="resources.php">Resources</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -173,9 +173,9 @@
               mobile applications, which involved working through Google's
               tutorial for Android in Java & XML. My first app was "Sailor's
               Mate" which helps people navigate at sea (see
-              <a href="projects.html">Projects</a>). I have since concentrated
-              on web technologies, as Progressive Web Apps provide almost the
-              same capability as native code.
+              <a href="projects.php">Projects</a>). I have since concentrated on
+              web technologies, as Progressive Web Apps provide almost the same
+              capability as native code.
             </div>
           </li>
           <li class="skill" id="json">
@@ -191,7 +191,7 @@
               written in PHP), for example sending information being stored on a
               server about a live event to multiple remote devices which are
               taking concurrent actions. (see
-              <a href="projects.html">Projects</a>).
+              <a href="projects.php">Projects</a>).
             </div>
           </li>
           <li class="skill" id="python">

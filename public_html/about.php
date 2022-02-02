@@ -14,17 +14,13 @@
     <link rel="stylesheet" href="css/unionflagbackground.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/light-theme.css" />
-    <link rel="stylesheet" href="css/blog.css" />
-    <script
-      type="module"
-      src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
-    ></script>
-    <title>Blog</title>
+    <link rel="stylesheet" href="css/about.css" />
+    <title>About Gareth</title>
   </head>
   <body>
     <header id="pageHeader">
       <nav>
-        <a href="index.html#pageHeader" id="homeLogoLink">
+        <a href="index.php#pageHeader" id="homeLogoLink">
           <div class="logo logo" id="logoNavbar"></div>
           <span id="headerName">GNolan</span>
         </a>
@@ -68,21 +64,17 @@
           </svg>
         </button>
         <ul id="menu">
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="skills.html">Skills</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="blog.html" class="thispage">Blog</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.php" class="thispage">About Me</a></li>
+          <li><a href="skills.php">Skills</a></li>
+          <li><a href="projects.php">Projects</a></li>
+          <li><a href="blog.php">Blog</a></li>
+          <li><a href="resources.php">Resources</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <h1>More Coming Soon...</h1>
-      <p>(Example blog from markdown file)</p>
-      <div class="md-container">
-        <zero-md src="blogs/00001_making_animated_text.md"></zero-md>
-      </div>
+      <h1>Coming Soon...</h1>
     </main>
     <footer>
       <address>

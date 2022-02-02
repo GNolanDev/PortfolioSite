@@ -1,2 +1,2 @@
 Use php include to add header and footer once xampp is installed on desktop.
-// test comment
+Animate code block down on main page & add introduction to site.

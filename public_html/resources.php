@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/light-theme.css" />
     <link rel="stylesheet" href="css/projects.css" />
-    <title>Contact</title>
+    <title>Resources</title>
   </head>
   <body>
     <header id="pageHeader">
       <nav>
-        <a href="index.html#pageHeader" id="homeLogoLink">
+        <a href="index.php#pageHeader" id="homeLogoLink">
           <div class="logo logo" id="logoNavbar"></div>
           <span id="headerName">GNolan</span>
         </a>
@@ -64,12 +64,12 @@
           </svg>
         </button>
         <ul id="menu">
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="skills.html">Skills</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="contact.html" class="thispage">Contact</a></li>
+          <li><a href="about.php">About Me</a></li>
+          <li><a href="skills.php">Skills</a></li>
+          <li><a href="projects.php">Projects</a></li>
+          <li><a href="blog.php">Blog</a></li>
+          <li><a href="resources.php" class="thispage">Resources</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav>
     </header>

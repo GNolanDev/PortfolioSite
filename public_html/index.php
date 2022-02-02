@@ -26,7 +26,7 @@
     <div id="overlay"></div>
     <header id="pageHeader">
       <nav>
-        <a href="index.html#pageHeader" id="homeLogoLink">
+        <a href="index.php#pageHeader" id="homeLogoLink">
           <div class="logo" id="logoNavbar"></div>
           <span id="headerName">GNolan</span>
         </a>
@@ -70,12 +70,12 @@
           </svg>
         </button>
         <ul id="menu">
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="skills.html">Skills</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.php">About Me</a></li>
+          <li><a href="skills.php">Skills</a></li>
+          <li><a href="projects.php">Projects</a></li>
+          <li><a href="blog.php">Blog</a></li>
+          <li><a href="resources.php">Resources</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -96,8 +96,7 @@
             <div class="tab">
               <span class="variable-word">background</span
               ><span class="plain-word">:</span>
-              <span class="string-word"
-                >"<a href="about.html">eclectic</a>"</span
+              <span class="string-word">"<a href="about.php">eclectic</a>"</span
               ><span class="plain-word">,</span><br />
             </div>
             <div class="tab">
@@ -121,7 +120,7 @@
             <span class="plain-word">].</span
             ><span class="method-word">concat</span
             ><span class="plain-word">(</span
-            ><span class="variable-word"><a href="skills.html">more</a></span
+            ><span class="variable-word"><a href="skills.php">more</a></span
             ><span class="plain-word">),</span><br />
             <div class="tab">
               <span class="variable-word">areasOfInterest</span
@@ -135,7 +134,7 @@
               ><span class="method-word">concat</span
               ><span class="plain-word">(</span
               ><span class="variable-word"
-                ><a href="about.html">lotsMore</a></span
+                ><a href="about.php">lotsMore</a></span
               ><span class="plain-word">),</span>
             </div>
             <div class="tab">
