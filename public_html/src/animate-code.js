@@ -42,6 +42,8 @@ arrayOfWords.forEach((word) => {
           ? deHtmlEntities(content + wordContent[i])
           : content + wordContent[i];
     }, initialDelay + runningTimeDelay);
-    runningTimeDelay += 10 + Math.floor(Math.random() * 120);
+    runningTimeDelay += 10 + Math.floor(Math.random() * 110);
   }
+  // add extra random delay as if pausing after roughly ~10 words
+  runningTimeDelay += Math.random() > 0.15 ? 0 : 750;
 });
