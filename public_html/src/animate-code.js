@@ -17,6 +17,7 @@ const initialDelay = 3000;
 
 const arrayOfWords = Array.from(listOfAnimatableContent);
 
+// helper function for rendering html correctly
 const deHtmlEntities = (str) => {
   return String(str)
     .replace(/&amp;/g, "&")
@@ -31,7 +32,7 @@ arrayOfWords.forEach((word) => {
   // empty the element and unhide it, then add each letter in turn
   word.innerHTML = "";
   word.classList.remove("hidden");
-  // use charCount to set delay for each character added
+  // use runningTimeDelay to set delay for each character added
   for (let i = 0; i < wordContent.length; i++) {
     setTimeout(function () {
       let content = word.innerHTML;

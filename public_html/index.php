@@ -1,175 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="assets/images/logos/favicons/favicon.ico" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="assets/images/logos/favicons/favicon.png"
-    />
+    <link rel="icon" type="image/png" href="assets/images/logos/favicons/favicon.png" />
     <link rel="stylesheet" href="css/normalise.css" />
     <link rel="stylesheet" href="css/unionflagbackground.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/indexonly.css" />
     <link rel="stylesheet" href="css/dark-theme.css" />
     <title>GNolan Developer Portfolio</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="background-container">
-      <div class="flag-uk-container"></div>
-      <div class="flag-uk-container" id="flagBackground2"></div>
-      <div class="flag-uk-container" id="flagBackground3"></div>
+        <div class="flag-uk-container"></div>
+        <div class="flag-uk-container" id="flagBackground2"></div>
+        <div class="flag-uk-container" id="flagBackground3"></div>
     </div>
     <div id="overlay"></div>
-    <header id="pageHeader">
-      <nav>
-        <a href="index.php#pageHeader" id="homeLogoLink">
-          <div class="logo" id="logoNavbar"></div>
-          <span id="headerName">GNolan</span>
-        </a>
-        <button id="hamburgerIcon">
-          <svg
-            height="29px"
-            width="30px"
-            viewBox="0 0 29 30"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          >
-            <g>
-              <g>
-                <rect
-                  class="tophamburger hamburger"
-                  x="0"
-                  y="0"
-                  width="29"
-                  height="2"
-                  rx="1"
-                ></rect>
-                <rect
-                  class="middlehamburger hamburger"
-                  x="0"
-                  y="14"
-                  width="29"
-                  height="2"
-                  rx="1"
-                ></rect>
-                <rect
-                  class="bottomhamburger hamburger"
-                  x="0"
-                  y="28"
-                  width="29"
-                  height="2"
-                  rx="1"
-                ></rect>
-              </g>
-            </g>
-          </svg>
-        </button>
-        <ul id="menu">
-          <li><a href="about.php">About Me</a></li>
-          <li><a href="skills.php">Skills</a></li>
-          <li><a href="projects.php">Projects</a></li>
-          <li><a href="blog.php">Blog</a></li>
-          <li><a href="resources.php">Resources</a></li>
-          <li><a href="contact.php">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <?php
+    include 'header.php';
+    ?>
     <main>
-      <section id="hero-container">
-        <div id="hero-content">
-          <div class="tab">
-            <span class="declare-word">const</span>
-            <span class="variable-word">gareth</span>
-            <span class="method-word">=</span>
-            <span class="plain-word">{</span>
-            <div class="tab">
-              <span class="variable-word">status</span
-              ><span class="plain-word">:</span>
-              <span class="string-word">"aspiring full stack developer"</span
-              ><span class="plain-word">,</span>
+
+        <section id="hero-container">
+            <div id="hero-content">
+                <div class="tab">
+                    <span class="declare-word">const</span>
+                    <span class="variable-word">gareth</span>
+                    <span class="method-word">=</span>
+                    <span class="plain-word">{</span>
+                    <div class="tab">
+                        <span class="variable-word">status</span><span class="plain-word">:</span>
+                        <span class="string-word">"aspiring full stack developer"</span><span class="plain-word">,</span>
+                    </div>
+                    <div class="tab">
+                        <span class="variable-word">background</span><span class="plain-word">:</span>
+                        <span class="string-word">"<a href="about.php">eclectic</a>"</span><span class="plain-word">,</span><br />
+                    </div>
+                    <div class="tab">
+                        <span class="variable-word">skills</span><span class="plain-word">: [</span><br />
+                        <span class="string-word">"html5"</span><span class="plain-word">,</span><br />
+                        <span class="string-word">"css3"</span><span class="plain-word">,</span><br />
+                        <span class="string-word">"js"</span><span class="plain-word">,</span><br />
+                        <span class="string-word">"php"</span><span class="plain-word">,</span><br />
+                        <span class="string-word">"sql"</span><span class="plain-word">,</span><br />
+                        <span class="string-word">"android(java & xml)"</span><span class="plain-word">,</span><br />
+                        <span class="string-word">"selenium testing"</span><span class="plain-word">,</span>
+                    </div>
+                    <span class="plain-word">].</span><span class="method-word">concat</span><span class="plain-word">(</span><span class="variable-word"><a href="skills.php">more</a></span><span class="plain-word">),</span><br />
+                    <div class="tab">
+                        <span class="variable-word">areasOfInterest</span><span class="plain-word">: [</span>
+                        <span class="string-word">"education"</span><span class="plain-word">,</span>
+                        <span class="string-word">"outdoor activities"</span><span class="plain-word">,</span>
+                        <span class="string-word">"aviation"</span><span class="plain-word">].</span><span class="method-word">concat</span><span class="plain-word">(</span><span class="variable-word"><a href="about.php">lotsMore</a></span><span class="plain-word">),</span>
+                    </div>
+                    <div class="tab">
+                        <span class="variable-word">future</span><span class="plain-word">: [</span>
+                        <span class="string-word">"building things that make the world a better place"</span><span class="plain-word">,</span><br />
+                        <span class="string-word">"learning more technologies"</span><span class="plain-word">,</span>
+                    </div>
+                    <span class="plain-word">],</span><br />
+                </div>
+                <span class="plain-word">};</span>
             </div>
-            <div class="tab">
-              <span class="variable-word">background</span
-              ><span class="plain-word">:</span>
-              <span class="string-word">"<a href="about.php">eclectic</a>"</span
-              ><span class="plain-word">,</span><br />
-            </div>
-            <div class="tab">
-              <span class="variable-word">skills</span
-              ><span class="plain-word">: [</span><br />
-              <span class="string-word">"html5"</span
-              ><span class="plain-word">,</span><br />
-              <span class="string-word">"css3"</span
-              ><span class="plain-word">,</span><br />
-              <span class="string-word">"js"</span
-              ><span class="plain-word">,</span><br />
-              <span class="string-word">"php"</span
-              ><span class="plain-word">,</span><br />
-              <span class="string-word">"sql"</span
-              ><span class="plain-word">,</span><br />
-              <span class="string-word">"android(java & xml)"</span
-              ><span class="plain-word">,</span><br />
-              <span class="string-word">"selenium testing"</span
-              ><span class="plain-word">,</span>
-            </div>
-            <span class="plain-word">].</span
-            ><span class="method-word">concat</span
-            ><span class="plain-word">(</span
-            ><span class="variable-word"><a href="skills.php">more</a></span
-            ><span class="plain-word">),</span><br />
-            <div class="tab">
-              <span class="variable-word">areasOfInterest</span
-              ><span class="plain-word">: [</span>
-              <span class="string-word">"education"</span
-              ><span class="plain-word">,</span>
-              <span class="string-word">"outdoor activities"</span
-              ><span class="plain-word">,</span>
-              <span class="string-word">"aviation"</span
-              ><span class="plain-word">].</span
-              ><span class="method-word">concat</span
-              ><span class="plain-word">(</span
-              ><span class="variable-word"
-                ><a href="about.php">lotsMore</a></span
-              ><span class="plain-word">),</span>
-            </div>
-            <div class="tab">
-              <span class="variable-word">future</span
-              ><span class="plain-word">: [</span>
-              <span class="string-word"
-                >"building things that make the world a better place"</span
-              ><span class="plain-word">,</span><br />
-              <span class="string-word">"learning more technologies"</span
-              ><span class="plain-word">,</span>
-            </div>
-            <span class="plain-word">],</span><br />
-          </div>
-          <span class="plain-word">};</span>
-        </div>
-      </section>
+        </section>
     </main>
     <div id="footerSpacer"></div>
-    <footer>
-      <address>
-        <section id="socialContainer">
-          <div class="social-media" id="logoFB"></div>
-          <div class="social-media" id="logoTW"></div>
-          <div id="logoDecorationContainer">
-            <div class="logo" id="logoDecoration"></div>
-          </div>
-          <div class="social-media" id="logoLI"></div>
-          <div class="social-media" id="logoEM"></div>
-        </section>
-        <div id="footerEmail">
-          <a href="mailto:GNolanDev@gmail.com">GNolanDev@gmail.com</a>
-        </div>
-      </address>
-    </footer>
+    <?php
+    include 'footer.php';
+    ?>
     <script src="src/menu.js"></script>
     <script src="src/animate-code.js"></script>
-  </body>
+</body>
+
 </html>

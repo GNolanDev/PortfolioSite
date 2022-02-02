@@ -2,7 +2,7 @@
 
 ## The Challenge
 
-I had made a codey-looking splash to introduce myself in a geeky way, but it loked quite plain & boring as it just appeared with the page, no animation etc. How could I have the element itself and the text appear in an interesting way?
+I had made a codey-looking splash to introduce myself in a geeky way, but it looked quite plain & boring as it just appeared with the page, no animation etc. How could I have the element itself and the text appear in an interesting way?
 
 ## The Proposal
 
