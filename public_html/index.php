@@ -20,13 +20,23 @@
         <div class="flag-uk-container"></div>
         <div class="flag-uk-container" id="flagBackground2"></div>
         <div class="flag-uk-container" id="flagBackground3"></div>
+        <div class="flag-uk-container" id="flagBackground4"></div>
     </div>
     <div id="overlay"></div>
     <?php
     include 'header.php';
     ?>
     <main>
-
+        <section id="introduction">
+            <div id="intro-text-container">
+                Hi. I'm Gareth.<br />
+                Welcome to my site.<br />
+                <div id="intro-longtext">
+                    I am a fledgling full-stack developer who loves problem solving and learning new stuff.<br />
+                    Feel free to take a look around, & get in touch if you think I might be able to help.
+                </div>
+            </div>
+        </section>
         <section id="hero-container">
             <div id="hero-content">
                 <div class="tab">
@@ -53,7 +63,7 @@
                         <span class="string-word">"selenium testing"</span><span class="plain-word">,</span>
                     </div>
                     <span class="plain-word">].</span><span class="method-word">concat</span><span class="plain-word">(</span><span class="variable-word"><a href="skills.php">more</a></span><span class="plain-word">),</span><br />
-                    <div class="tab">
+                    <div class="tab" id="div-to-wrap">
                         <span class="variable-word">areasOfInterest</span><span class="plain-word">: [</span>
                         <span class="string-word">"education"</span><span class="plain-word">,</span>
                         <span class="string-word">"outdoor activities"</span><span class="plain-word">,</span>

@@ -1,10 +1,10 @@
-let listOfAnimatableContent = document.querySelectorAll(
+const listOfAnimatableContent = document.querySelectorAll(
   ".declare-word, .variable-word, .method-word, .plain-word, .string-word"
 );
-let heroContainer = document.getElementById("hero-container");
+const introSection = document.getElementById("introduction");
 
 // begin animated appearance of 'hero' image
-heroContainer.classList.add("show");
+document.getElementById("hero-container").classList.add("show");
 // hide all words that should arrive by animation
 for (let i = 0; i < listOfAnimatableContent.length; i++) {
   listOfAnimatableContent[i].classList.add("hidden");
@@ -34,7 +34,7 @@ arrayOfWords.forEach((word) => {
   word.classList.remove("hidden");
   // use runningTimeDelay to set delay for each character added
   for (let i = 0; i < wordContent.length; i++) {
-    setTimeout(function () {
+    setTimeout(() => {
       let content = word.innerHTML;
       word.innerHTML = "";
       word.innerHTML =
@@ -47,3 +47,8 @@ arrayOfWords.forEach((word) => {
   // add extra random delay as if pausing after roughly ~7 words
   runningTimeDelay += Math.random() > 0.15 ? 0 : 750;
 });
+
+// trigger intro section to animate in
+setTimeout(() => {
+  introSection.classList.add("visible");
+}, initialDelay + runningTimeDelay + 1500);
