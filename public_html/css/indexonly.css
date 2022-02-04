@@ -108,6 +108,9 @@
 }
 
 #intro-text-container {
+  line-height: 1.3;
+  margin: 0 auto;
+  max-width: 850px;
   transform: scale(0.6, 0);
   transform-origin: center top;
 }
@@ -144,10 +147,16 @@
 
 #introduction.visible {
   background: rgba(0, 0, 0, 0.5);
-  margin: 4px 12px 16px 12px;
-  border-radius: 6vw;
   max-height: 1200px;
   padding: 16px 24px;
+}
+
+@media only screen and (min-width: 450px) {
+  #introduction.visible {
+    border-radius: 6vw;
+    margin: 4px auto 60px auto;
+    max-width: 75vw;
+  }
 }
 
 @keyframes bounce-in {

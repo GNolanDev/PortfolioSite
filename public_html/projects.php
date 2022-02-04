@@ -26,7 +26,7 @@
         </div>
         <div>My proudest project so far - <a href="www.timerthing.com">timerthing.com</a>.<br />
             A live website built for amateur running (or other) groups to use based on QR codes, for timing their finishers week-in, week-out.<br />
-            Technologies used include html/css/js for front end, php back end utilising a MySQL database for storage of all user information, dates, times, events, locations etc. Email verification, password reset functionality, ability for multiple devices to time the same event simultaneously - lots of groovy stuff!<br />
+            Technologies used include HTML/CSS/JS for front end, PHP back end utilising a MySQL database for storage of all user information, dates, times, events, locations etc. JSON for transfer and storage of information. API created in PHP for serving user data to clients if authenticated and authorised.<br />Email verification, password reset functionality, ability for multiple devices to time the same event simultaneously - lots of groovy stuff!<br />
             Go get an account and try it out!
         </div>
     </main>
