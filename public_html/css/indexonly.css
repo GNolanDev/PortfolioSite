@@ -88,12 +88,14 @@
 /* other animation */
 #pageHeader,
 #pageFooter {
+  filter: blur(4px);
   opacity: 0;
-  transition: opacity 12s ease-in 4s;
+  transition: opacity 12s ease-in 4s, filter 10s ease-in 4s;
 }
 
 #pageHeader.visible,
 #pageFooter.visible {
+  filter: blur(0);
   opacity: 1;
 }
 
