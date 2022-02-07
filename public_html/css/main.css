@@ -297,10 +297,6 @@ footer {
   }
 
   #menu a.active::after {
-    border-bottom: 3px solid var(--link-underline);
-  }
-
-  #menu a.thispage::after {
     border-bottom: 3px solid var(--link-underline-thispage);
     content: "";
     display: block;
