@@ -17,12 +17,12 @@
             </svg>
         </button>
         <ul id="menu">
-            <li><a href="about.php">About Me</a></li>
-            <li><a href="skills.php">Skills</a></li>
-            <li><a href="projects.php">Projects</a></li>
-            <li><a href="blog.php">Blog</a></li>
-            <li><a href="resources.php">Resources</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="about.php" id="menu-link-about">About Me</a></li>
+            <li><a href="skills.php" id="menu-link-skills">Skills</a></li>
+            <li><a href="projects.php" id="menu-link-projects">Projects</a></li>
+            <li><a href="blog.php" id="menu-link-blog">Blog</a></li>
+            <li><a href="resources.php" id="menu-link-resources">Resources</a></li>
+            <li><a href="contact.php" id="menu-link-contact">Contact</a></li>
         </ul>
     </nav>
 </header>

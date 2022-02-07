@@ -1,1 +1,3 @@
-Use php include to add header and footer once xampp is installed on desktop.
+Add portfolio projects etc to projects page & style.
+Add "about me" info & styling.
+Add "Contact" info in page and footer.
