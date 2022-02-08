@@ -31,29 +31,25 @@
                 <a href="#item-1">Larger Projects</a>
             </div>
             <div class="swipe-content" id="item-1">
-                <img src="assets/images/hi-res/dummy-image.jpg" alt="">
-                <div>Some content here for Larger Projects</div>
+                <?php include "projects-large.php" ?>
             </div>
             <div class="list-label smallscreen" data-linknum="2">
                 <a href="#item-2">Other Projects</a>
             </div>
             <div class="swipe-content" id="item-2">
-                <img src="assets/images/hi-res/dummy-image.jpg" alt="">
-                <div>Some content here for Other Projects</div>
+                <?php include "projects-other.php" ?>
             </div>
             <div class="list-label smallscreen" data-linknum="3">
                 <a href="#item-3">Currently Offline</a>
             </div>
             <div class="swipe-content" id="item-3">
-                <img src="assets/images/hi-res/dummy-image.jpg" alt="">
-                <div>Some content here for Currently Offline</div>
+                <?php include "projects-offline.php" ?>
             </div>
             <div class="list-label smallscreen" data-linknum="4">
                 <a href="#item-4">Little Things</a>
             </div>
             <div class="swipe-content" id="item-4">
-                <img src="assets/images/hi-res/dummy-image.jpg" alt="">
-                <div>Some content here for Little Things</div>
+                <?php include "projects-little.php" ?>
             </div>
         </div>
     </main>
