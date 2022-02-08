@@ -21,34 +21,34 @@
     ?>
     <main>
         <ul id="tablist-largescreen">
-            <li class="largescreen"><a href="#item-1">Larger Projects</a></li>
-            <li class="largescreen"><a href="#item-2">Other Projects</a></li>
-            <li class="largescreen"><a href="#item-3">Currently Offline</a></li>
-            <li class="largescreen"><a href="#item-4">Little Things</a></li>
+            <li class="largescreen" data-linknum="1"><a href="#item-1">Larger Projects</a></li>
+            <li class="largescreen" data-linknum="2"><a href="#item-2">Other Projects</a></li>
+            <li class="largescreen" data-linknum="3"><a href="#item-3">Currently Offline</a></li>
+            <li class="largescreen" data-linknum="4"><a href="#item-4">Little Things</a></li>
         </ul>
         <div id="content-container">
-            <div class="list-label smallscreen">
+            <div class="list-label smallscreen" data-linknum="1">
                 <a href="#item-1">Larger Projects</a>
             </div>
             <div class="swipe-content" id="item-1">
                 <img src="assets/images/hi-res/dummy-image.jpg" alt="">
                 <div>Some content here for Larger Projects</div>
             </div>
-            <div class="list-label smallscreen">
+            <div class="list-label smallscreen" data-linknum="2">
                 <a href="#item-2">Other Projects</a>
             </div>
             <div class="swipe-content" id="item-2">
                 <img src="assets/images/hi-res/dummy-image.jpg" alt="">
                 <div>Some content here for Other Projects</div>
             </div>
-            <div class="list-label smallscreen">
+            <div class="list-label smallscreen" data-linknum="3">
                 <a href="#item-3">Currently Offline</a>
             </div>
             <div class="swipe-content" id="item-3">
                 <img src="assets/images/hi-res/dummy-image.jpg" alt="">
                 <div>Some content here for Currently Offline</div>
             </div>
-            <div class="list-label smallscreen">
+            <div class="list-label smallscreen" data-linknum="4">
                 <a href="#item-4">Little Things</a>
             </div>
             <div class="swipe-content" id="item-4">

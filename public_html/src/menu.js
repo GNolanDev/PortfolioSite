@@ -7,7 +7,12 @@ const toggleMenuState = (evt) => {
 
 hamburgerIcon.addEventListener("click", toggleMenuState);
 
-const thisPageURL = window.location.href;
+let thisPageURL = window.location.href;
+// remove fragment before checking in case of page reload/bookmarking
+thisPageURL = thisPageURL.substring(
+  0,
+  thisPageURL.indexOf("#") > 0 ? thisPageURL.indexOf("#") : undefined
+);
 
 // add active class to current page nav item in navbar
 const navItemsArray = document.getElementById("menu").querySelectorAll("li a");

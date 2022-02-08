@@ -8,12 +8,13 @@ main div {
   font-family: Roboto-Regular, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* dev code - remove and style correctly with real images in place */
+/* dev code - remove and style correctly with real content in place */
 #content-container img {
   height: auto;
   width: 200px;
 }
 
+/* wide screen navigation tab styling - reveal for larger screens */
 #tablist-largescreen {
   background-color: var(--color-secondary-light);
   display: none;
@@ -50,10 +51,12 @@ li.largescreen.activetab {
 li.largescreen.activetab a {
   cursor: default;
 }
+
 li.largescreen.activetab a:hover {
   text-decoration: none;
 }
 
+/* reveal for wide screens, & remove small screen tabs */
 @media only screen and (min-width: 500px) {
   #tablist-largescreen {
     border: 2px solid var(--color-secondary-dark);
@@ -68,17 +71,25 @@ li.largescreen.activetab a:hover {
   }
 }
 
+/* small screen navigation tab styling */
 div.list-label {
-  /* border: 2px solid #444; */
+  background-color: var(--color-secondary-light);
+  font-size: 1.5rem;
+  height: 36px;
   margin: 4px auto;
+  padding-left: 8px;
   width: 100%;
 }
 
-.list-label.smallscreen a {
-  display: block;
+div.list-label.activetab {
+  background-color: var(--color-secondary-standard);
+  font-weight: bold;
 }
 
-#content-container {
+.list-label.smallscreen a {
+  align-items: center;
+  display: flex;
+  height: 100%;
 }
 
 .swipe-content {
