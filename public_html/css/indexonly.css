@@ -149,6 +149,7 @@
 
 #introduction.visible {
   background: rgba(0, 0, 0, 0.5);
+  margin-bottom: 14px;
   max-height: 1200px;
   padding: 16px 24px;
 }
@@ -156,7 +157,7 @@
 @media only screen and (min-width: 450px) {
   #introduction.visible {
     border-radius: 6vw;
-    margin: 4px auto 60px auto;
+    margin: 4px auto 40px auto;
     max-width: 75vw;
   }
 }

@@ -20,14 +20,41 @@
     include 'header.php';
     ?>
     <main>
-        <h1>Coming Soon...</h1>
-        <div>
-            Styling of this page, and links to other projects of various types to come in the not-too-distant future, in the meantime...
-        </div>
-        <div>My proudest project so far - <a href="www.timerthing.com">timerthing.com</a>.<br />
-            A live website built for amateur running (or other) groups to use based on QR codes, for timing their finishers week-in, week-out.<br />
-            Technologies used include HTML/CSS/JS for front end, PHP back end utilising a MySQL database for storage of all user information, dates, times, events, locations etc. JSON for transfer and storage of information. API created in PHP for serving user data to clients if authenticated and authorised.<br />Email verification, password reset functionality, ability for multiple devices to time the same event simultaneously - lots of groovy stuff!<br />
-            Go get an account and try it out!
+        <ul id="tablist-largescreen">
+            <li class="largescreen"><a href="#item-1">Larger Projects</a></li>
+            <li class="largescreen"><a href="#item-2">Other Projects</a></li>
+            <li class="largescreen"><a href="#item-3">Currently Offline</a></li>
+            <li class="largescreen"><a href="#item-4">Little Things</a></li>
+        </ul>
+        <div id="content-container">
+            <div class="list-label smallscreen">
+                <a href="#item-1">Larger Projects</a>
+            </div>
+            <div class="swipe-content" id="item-1">
+                <img src="assets/images/hi-res/dummy-image.jpg" alt="">
+                <div>Some content here for Larger Projects</div>
+            </div>
+            <div class="list-label smallscreen">
+                <a href="#item-2">Other Projects</a>
+            </div>
+            <div class="swipe-content" id="item-2">
+                <img src="assets/images/hi-res/dummy-image.jpg" alt="">
+                <div>Some content here for Other Projects</div>
+            </div>
+            <div class="list-label smallscreen">
+                <a href="#item-3">Currently Offline</a>
+            </div>
+            <div class="swipe-content" id="item-3">
+                <img src="assets/images/hi-res/dummy-image.jpg" alt="">
+                <div>Some content here for Currently Offline</div>
+            </div>
+            <div class="list-label smallscreen">
+                <a href="#item-4">Little Things</a>
+            </div>
+            <div class="swipe-content" id="item-4">
+                <img src="assets/images/hi-res/dummy-image.jpg" alt="">
+                <div>Some content here for Little Things</div>
+            </div>
         </div>
     </main>
     <?php

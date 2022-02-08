@@ -80,7 +80,6 @@
             </div>
         </section>
     </main>
-    <div id="footerSpacer"></div>
     <?php
     include 'footer.php';
     ?>

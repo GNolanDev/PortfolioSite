@@ -3,13 +3,49 @@ h1 {
 }
 
 main div {
-  padding: 16px;
   line-height: 1.2;
   font-size: 1.2rem;
   font-family: Roboto-Regular, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main a {
-  color: blue;
-  text-decoration: underline;
+/* dev code - remove and style correctly with real images in place */
+#content-container img {
+  height: auto;
+  width: 200px;
+}
+
+#tablist-largescreen {
+  display: none;
+}
+
+@media only screen and (min-width: 500px) {
+  #tablist-largescreen {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .list-label.smallscreen {
+    display: none;
+  }
+}
+
+div.list-label {
+  /* border: 2px solid #444; */
+  margin: 4px auto;
+  width: 100%;
+}
+
+.list-label.smallscreen a {
+  display: block;
+}
+
+#content-container {
+}
+
+.swipe-content {
+  display: none;
+}
+
+.swipe-content:target {
+  display: block;
 }
