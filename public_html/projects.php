@@ -61,6 +61,7 @@
     include 'footer.php';
     ?>
     <script src="src/menu.js"></script>
+    <script src="src/projects.js"></script>
 </body>
 
 </html>

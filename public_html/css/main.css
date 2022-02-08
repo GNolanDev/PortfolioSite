@@ -4,6 +4,12 @@
   /* default dark theme style */
   --color-foreground: #f9f9f9;
   --color-background: #101010;
+  --color-primary-dark: #837c65;
+  --color-primary-light: #e5ddc3;
+  --color-primary-standard: #b3ab93;
+  --color-secondary-dark: #4b636e;
+  --color-secondary-light: #a7c0cd;
+  --color-secondary-standard: #78909c;
   --logo-url: url("../assets/images/logos/colour_beard_no_eb_ondarkbg_thicker.svg");
 }
 
