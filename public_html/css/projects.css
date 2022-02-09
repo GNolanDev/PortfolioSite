@@ -5,13 +5,6 @@ h1 {
 main div {
   line-height: 1.2;
   font-size: 1.2rem;
-  font-family: Roboto-Regular, Verdana, Geneva, Tahoma, sans-serif;
-}
-
-/* dev code - remove and style correctly with real content in place */
-#content-container img {
-  height: auto;
-  width: 200px;
 }
 
 /* wide screen navigation tab styling - reveal for larger screens */
@@ -102,27 +95,127 @@ div.list-label.activetab {
 
 /* main projects content styling */
 .projects-page-content-section {
-  display: flex;
+  display: block;
 }
 
 .project {
-  background-color: #fff;
+  background-color: var(--color-primary-light);
   box-shadow: 0 0 5px 3px #4444;
+  font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* large projects tiles */
+/* hide description and allow click to reveal */
+div.project-description-inner {
+  display: none;
+}
+
+div.project-description-inner.moretext {
+  display: block;
+}
+
+/* reveal when checked */
+input.description-checkbox:checked ~ div.project-description-inner {
+  display: block;
+}
+
+input.description-checkbox:checked ~ div.project-description-inner.moretext {
+  display: none;
+}
+
+/* small screen project layout */
+.project {
+  display: grid;
+  grid-template-areas:
+    "title screenshot"
+    "tldr screenshot"
+    "link screenshot"
+    "description description";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 90px 40px auto;
+  margin-bottom: 24px;
+}
+
+.project > div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.project-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  grid-area: title;
+  text-align: center;
+}
+.project > div.project-tldr {
+  align-items: flex-start;
+  grid-area: tldr;
+  text-indent: 60px;
+  position: relative;
+  text-align: center;
+}
+.project-tldr::before {
+  background-color: #fff;
+  border-radius: 4px;
+  color: var(--color-primary-dark);
+  content: "TLDR:";
+  font-family: Roboto-Regular, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1rem;
+  font-style: italic;
+  padding: 2px 3px 2px 2px;
+  position: absolute;
+  text-indent: 0;
+  top: 0;
+  left: 4px;
+}
+.project-screenshot {
+  grid-area: screenshot;
+}
+.project-description {
+  grid-area: description;
+}
+.project-link {
+  font-size: 1rem;
+  grid-area: link;
+}
+.project-link::before {
+  background-color: #fff;
+  background-image: url(../assets/images/icons/ic_weblink.svg);
+  background-size: cover;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  content: "";
+  height: 24px;
+  margin-right: 4px;
+  width: 24px;
+}
+
+.project-screenshot img {
+  object-fit: cover;
+  max-height: 100%;
+  width: 100%;
+}
+
+/* wide screen project layout */
 @media only screen and (min-width: 800px) {
-  .projects-page-content-section {
+  .project {
+    border-radius: 4px;
+    display: grid;
+    grid-template-areas:
+      "title tldr"
+      "screenshot description"
+      "link description";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 30px 1fr 20px;
+    margin: 12px auto;
+    max-width: 1000px;
+  }
+
+  div.project-description-inner {
     display: block;
   }
-
-  .project {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    margin: 12px;
-  }
-
-  .project-title {
-    grid-area: title;
+  div.project-description-inner.moretext {
+    display: none;
   }
 }

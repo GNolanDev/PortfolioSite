@@ -1,4 +1,5 @@
 Add portfolio projects etc to projects page & style.
+ - weblink styling etc on both wide & small, then other projects etc.
 Change folder structure to allow for jekyll building of static site instead of php.
 Add "about me" info & styling.
 Add "Contact" info in page and footer.
