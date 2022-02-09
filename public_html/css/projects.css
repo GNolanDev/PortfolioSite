@@ -99,3 +99,30 @@ div.list-label.activetab {
 .swipe-content:target {
   display: block;
 }
+
+/* main projects content styling */
+.projects-page-content-section {
+  display: flex;
+}
+
+.project {
+  background-color: #fff;
+  box-shadow: 0 0 5px 3px #4444;
+}
+
+/* large projects tiles */
+@media only screen and (min-width: 800px) {
+  .projects-page-content-section {
+    display: block;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    margin: 12px;
+  }
+
+  .project-title {
+    grid-area: title;
+  }
+}
