@@ -273,6 +273,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
 }
 
 .project-tech-icon::before {
+  background-repeat: no-repeat;
   content: "";
   display: inline-block;
   height: 15px;
@@ -280,12 +281,30 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   top: 1px;
   width: 15px;
 }
-.project-tech-icon.html::before {
-  background-image: url(../assets/images/logos/tech/HTML5.svg);
-}
 .project-tech-icon.css::before {
   background-image: url(../assets/images/logos/tech/CSS3_logo.svg);
 }
+.project-tech-icon.html::before {
+  background-image: url(../assets/images/logos/tech/HTML5.svg);
+}
+.project-tech-icon.js::before {
+  background-image: url(../assets/images/logos/tech/javascript.svg);
+  left: 1px;
+}
+.project-tech-icon.json::before {
+  background-image: url(../assets/images/logos/tech/JSON.svg);
+  top: 0;
+}
+.project-tech-icon.php {
+  padding: 2px;
+}
+.project-tech-icon.php::before {
+  background-image: url(../assets/images/logos/tech/php.svg);
+  height: 11px;
+  width: 18px;
+}
+
+/* End of tech icons styling */
 
 /* wide screen project layout */
 @media only screen and (min-width: 800px) {
