@@ -99,7 +99,7 @@ div.list-label.activetab {
 }
 
 .project {
-  background-color: var(--color-primary-light);
+  background-color: var(--color-primary-ultralight);
   box-shadow: 0 0 5px 3px #4444;
   font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -107,10 +107,17 @@ div.list-label.activetab {
 /* hide description and allow click to reveal */
 div.project-description-inner {
   display: none;
+  font-size: 1rem;
+  font-style: italic;
 }
 
 div.project-description-inner.moretext {
   display: block;
+  cursor: pointer;
+}
+
+div.project-description-inner.moretext::before {
+  content: "click for description...";
 }
 
 /* reveal when checked */
@@ -131,8 +138,9 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
     "link screenshot"
     "description description";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50px 90px 40px auto;
+  grid-template-rows: 60px 70px 60px auto;
   margin-bottom: 24px;
+  word-break: break-word;
 }
 
 .project > div {
@@ -169,17 +177,24 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   top: 0;
   left: 4px;
 }
+
 .project-screenshot {
   grid-area: screenshot;
+  padding: 6px;
 }
 .project-description {
   grid-area: description;
 }
 .project-link {
+  flex-wrap: wrap;
   font-size: 1rem;
   grid-area: link;
 }
-.project-link::before {
+.project-technology-icons {
+  grid-area: icons;
+}
+
+.project-link:not(.android)::before {
   background-color: #fff;
   background-image: url(../assets/images/icons/ic_weblink.svg);
   background-size: cover;
@@ -190,10 +205,19 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   margin-right: 4px;
   width: 24px;
 }
+@media only screen and (max-width: 380px) {
+  .project-link::before {
+    display: none;
+  }
+}
+
+.project-inline-icon.project-icon-playstore::before {
+  content: url(../assets/images/logos/tech/google-play-badge_48.png);
+}
 
 .project-screenshot img {
-  object-fit: cover;
-  max-height: 100%;
+  object-fit: contain;
+  max-height: 184px;
   width: 100%;
 }
 
@@ -205,11 +229,12 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
     grid-template-areas:
       "title tldr"
       "screenshot description"
-      "link description";
+      "link icons";
     grid-template-columns: 200px 1fr;
-    grid-template-rows: 30px 1fr 20px;
+    grid-template-rows: 36px 1fr min-content;
     margin: 12px auto;
     max-width: 1000px;
+    padding: 12px 4px;
   }
 
   div.project-description-inner {
@@ -217,5 +242,25 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   }
   div.project-description-inner.moretext {
     display: none;
+  }
+
+  .project-tldr::before {
+    position: static;
+  }
+
+  .project-description {
+    padding: 8px;
+  }
+
+  .project-tldr {
+    font-size: 1.3rem;
+  }
+  /* remove extra padding from play store image */
+  .project-link.android {
+    margin: -4px;
+  }
+
+  .project-screenshot img {
+    max-height: none;
   }
 }
