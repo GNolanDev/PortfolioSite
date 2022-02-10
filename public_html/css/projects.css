@@ -4,7 +4,6 @@ h1 {
 
 main div {
   line-height: 1.2;
-  font-size: 1.2rem;
 }
 
 /* wide screen navigation tab styling - reveal for larger screens */
@@ -77,6 +76,7 @@ div.list-label {
 div.list-label.activetab {
   background-color: var(--color-secondary-standard);
   font-weight: bold;
+  text-shadow: 0px 0px 4px #fff;
 }
 
 .list-label.smallscreen a {
@@ -140,6 +140,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   grid-template-columns: 8fr 5fr;
   grid-template-rows: 60px 70px auto auto;
   margin-bottom: 24px;
+  position: relative;
   word-break: break-word;
 }
 
@@ -150,7 +151,8 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   overflow: hidden;
 }
 
-.project-title {
+.project > div.project-title {
+  align-items: flex-end;
   font-size: 1.4rem;
   font-weight: bold;
   grid-area: title;
@@ -196,9 +198,6 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
     font-size: 1.2rem;
   }
 }
-.project-technology-icons {
-  grid-area: icons;
-}
 .project-github {
   grid-area: github;
 }
@@ -235,14 +234,57 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   }
 }
 
+.project-inline-icon.project-icon-playstore {
+  display: flex;
+}
 .project-inline-icon.project-icon-playstore::before {
-  content: url(../assets/images/logos/tech/google-play-badge_48.png);
+  background-image: url(../assets/images/logos/tech/google-play-badge_80.png);
+  background-size: cover;
+  content: "";
+  display: inline-block;
+  height: 48px;
+  width: 130px;
 }
 
 .project-screenshot img {
   object-fit: contain;
   max-height: 184px;
   width: 100%;
+}
+
+/* add icons to icon divs */
+.project-technology-icons {
+  align-items: center;
+  display: flex;
+  left: 0;
+  position: absolute;
+  top: 4px;
+}
+
+.project-tech-icon {
+  align-items: center;
+  background-color: var(--color-secondary-dark);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 0 1px;
+  padding: 3px;
+  position: relative;
+}
+
+.project-tech-icon::before {
+  content: "";
+  display: inline-block;
+  height: 15px;
+  position: relative;
+  top: 1px;
+  width: 15px;
+}
+.project-tech-icon.html::before {
+  background-image: url(../assets/images/logos/tech/HTML5.svg);
+}
+.project-tech-icon.css::before {
+  background-image: url(../assets/images/logos/tech/CSS3_logo.svg);
 }
 
 /* wide screen project layout */
@@ -253,7 +295,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
     grid-template-areas:
       "title tldr"
       "screenshot description"
-      "link icons";
+      "link . ";
     grid-template-columns: 200px 1fr;
     grid-template-rows: 36px 1fr min-content;
     margin: 12px auto;

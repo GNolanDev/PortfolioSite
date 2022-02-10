@@ -17,7 +17,7 @@
         <div class="project-link"><a href="https://gnolandev.github.io/teacosy/">gnolandev.github.io/teacosy</a></div>
         <div class="project-github"><a href="https://github.com/GNolanDev/teacosy"></a></div>
         <div class=" project-technology-icons">
-            <div class="project-icon-html"></div>
-            <div class="project-icon-css"></div>
+            <div class="project-tech-icon html" title="html"></div>
+            <div class="project-tech-icon css" title="css"></div>
         </div>
 </section>

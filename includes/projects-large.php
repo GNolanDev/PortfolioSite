@@ -16,12 +16,12 @@
         </div>
         <div class="project-link"><a href="https://www.timerthing.com">www.timerthing.com</a></div>
         <div class="project-technology-icons">
-            <div class="project-icon-html"></div>
-            <div class="project-icon-css"></div>
-            <div class="project-icon-js"></div>
-            <div class="project-icon-json"></div>
-            <div class="project-icon-php"></div>
-            <div class="project-icon-mariadb"></div>
+            <div class="project-tech-icon html"></div>
+            <div class="project-tech-icon css"></div>
+            <div class="project-tech-icon js"></div>
+            <div class="project-tech-icon json"></div>
+            <div class="project-tech-icon php"></div>
+            <div class="project-tech-icon mariadb"></div>
         </div>
     </div>
     <div class="project">
@@ -44,9 +44,9 @@
             </a>
         </div>
         <div class="project-technology-icons">
-            <div class="project-icon-android"></div>
-            <div class="project-icon-xml"></div>
-            <div class="project-icon-java"></div>
+            <div class="project-tech-icon android"></div>
+            <div class="project-tech-icon xml"></div>
+            <div class="project-tech-icon java"></div>
         </div>
     </div>
 </section>
