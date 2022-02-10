@@ -4,7 +4,7 @@
         <div class="project-screenshot">
             <img src="assets/images/hi-res/sc_teacosy.png" alt="">
         </div>
-        <div class="project-tldr">Code a simple webpage from a design brief</div>
+        <div class="project-tldr">Simple webpage from a design brief</div>
         <div class="project-description">
             <label for="chkbx-4-1">
                 <input class="description-checkbox" type="checkbox" id="chkbx-4-1" hidden>

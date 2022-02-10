@@ -137,7 +137,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
     "tldr screenshot"
     "link screenshot"
     "description description";
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 8fr 5fr;
   grid-template-rows: 60px 70px auto auto;
   margin-bottom: 24px;
   word-break: break-word;
@@ -157,26 +157,22 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   text-align: center;
 }
 .project > div.project-tldr {
-  align-items: flex-start;
+  font-size: 1rem;
   grid-area: tldr;
+  justify-content: space-around;
   overflow-y: auto;
-  position: relative;
   text-align: center;
-  text-indent: 60px;
 }
 .project-tldr::before {
   background-color: #fff;
   border-radius: 4px;
   color: var(--color-primary-dark);
   content: "TLDR:";
+  flex: 0 0 60px;
   font-family: Roboto-Regular, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.1rem;
   font-style: italic;
   padding: 2px 3px 2px 2px;
-  position: absolute;
-  text-indent: 0;
-  top: 0;
-  left: 4px;
 }
 .project-screenshot {
   grid-area: screenshot;
@@ -195,6 +191,9 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
 @media only screen and (min-width: 500px) {
   .project-link {
     font-size: 1rem;
+  }
+  .project > div.project-tldr {
+    font-size: 1.2rem;
   }
 }
 .project-technology-icons {
@@ -280,6 +279,9 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   .project-tldr {
     font-size: 1.3rem;
   }
+  .project > div.project-tldr {
+    justify-content: space-evenly;
+  }
   /* remove extra padding from play store image */
   .project-link.android {
     margin: -4px;
@@ -299,6 +301,5 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
     "link screenshot"
     "github screenshot"
     "description description";
-  grid-template-columns: 1fr 1fr;
   grid-template-rows: 60px 70px auto auto auto;
 }
