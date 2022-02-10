@@ -138,7 +138,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
     "link screenshot"
     "description description";
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 60px 70px 60px auto;
+  grid-template-rows: 60px 70px auto auto;
   margin-bottom: 24px;
   word-break: break-word;
 }
@@ -177,13 +177,13 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   top: 0;
   left: 4px;
 }
-
 .project-screenshot {
   grid-area: screenshot;
   padding: 6px;
 }
 .project-description {
   grid-area: description;
+  padding: 6px;
 }
 .project-link {
   flex-wrap: wrap;
@@ -193,8 +193,27 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
 .project-technology-icons {
   grid-area: icons;
 }
+.project-github {
+  grid-area: github;
+}
+.project-github a {
+  display: flex;
+}
+.project-github a::before {
+  background-color: #fff;
+  background-image: url(../assets/images/logos/tech/github.svg);
+  background-size: cover;
+  content: "";
+  display: inline-block;
+  height: 24px;
+  margin-right: 4px;
+  width: 24px;
+}
+.project-github a::after {
+  content: "Github repo";
+}
 
-.project-link:not(.android)::before {
+.project-link:not(.android) a::before {
   background-color: #fff;
   background-image: url(../assets/images/icons/ic_weblink.svg);
   background-size: cover;
@@ -263,4 +282,17 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   .project-screenshot img {
     max-height: none;
   }
+}
+
+/* Further styling specific to non "Large Projects" sections */
+/* Little Things Section */
+.little-projects .project {
+  grid-template-areas:
+    "title screenshot"
+    "tldr screenshot"
+    "link screenshot"
+    "github screenshot"
+    "description description";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 60px 70px auto auto auto;
 }
