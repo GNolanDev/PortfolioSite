@@ -159,9 +159,10 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
 .project > div.project-tldr {
   align-items: flex-start;
   grid-area: tldr;
-  text-indent: 60px;
+  overflow-y: auto;
   position: relative;
   text-align: center;
+  text-indent: 60px;
 }
 .project-tldr::before {
   background-color: #fff;
@@ -187,8 +188,14 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
 }
 .project-link {
   flex-wrap: wrap;
-  font-size: 1rem;
+  font-size: 0.8rem;
   grid-area: link;
+  margin: 4px 0;
+}
+@media only screen and (min-width: 500px) {
+  .project-link {
+    font-size: 1rem;
+  }
 }
 .project-technology-icons {
   grid-area: icons;
@@ -196,34 +203,33 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
 .project-github {
   grid-area: github;
 }
+.project-link:not(.android) a,
 .project-github a {
+  align-items: center;
   display: flex;
 }
-.project-github a::before {
+.project-github a::before,
+.project-link:not(.android) a::before {
   background-color: #fff;
   background-image: url(../assets/images/logos/tech/github.svg);
   background-size: cover;
+  border: 2px solid #fff;
+  border-radius: 4px;
   content: "";
   display: inline-block;
-  height: 24px;
+  flex: 0 0 26px;
+  height: 26px;
   margin-right: 4px;
-  width: 24px;
+  width: 26px;
 }
 .project-github a::after {
   content: "Github repo";
 }
 
 .project-link:not(.android) a::before {
-  background-color: #fff;
   background-image: url(../assets/images/icons/ic_weblink.svg);
-  background-size: cover;
-  border: 2px solid #fff;
-  border-radius: 4px;
-  content: "";
-  height: 24px;
-  margin-right: 4px;
-  width: 24px;
 }
+
 @media only screen and (max-width: 380px) {
   .project-link::before {
     display: none;

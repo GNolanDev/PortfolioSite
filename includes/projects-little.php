@@ -6,8 +6,8 @@
         </div>
         <div class="project-tldr">Code a simple webpage from a design brief</div>
         <div class="project-description">
-            <label for="chkbx-1">
-                <input class="description-checkbox" type="checkbox" id="chkbx-1" hidden>
+            <label for="chkbx-4-1">
+                <input class="description-checkbox" type="checkbox" id="chkbx-4-1" hidden>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     Codecademy mini-project - follow a design brief, given image assets, to produce a webpage. Decided to make it responsive too.
