@@ -1,3 +1,10 @@
+/* for very small screens */
+@media only screen and (max-width: 300px) {
+  html {
+    font-size: 0.8em;
+  }
+}
+
 h1 {
   text-align: center;
 }
@@ -143,9 +150,10 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
     "title screenshot"
     "tldr screenshot"
     "link screenshot"
+    "github screenshot"
     "description description";
   grid-template-columns: 8fr 5fr;
-  grid-template-rows: 60px 70px auto auto;
+  grid-template-rows: 60px 70px auto auto auto;
   margin-bottom: 24px;
   position: relative;
   word-break: break-word;
@@ -234,6 +242,37 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
 
 .project-link:not(.android) a::before {
   background-image: url(../assets/images/icons/ic_weblink.svg);
+}
+
+/* add 'empty' icons as placeholders for any elements without a website or a github repo */
+.project-link:empty::before,
+.project-github:empty::before {
+  background-color: #fff;
+  background-image: url(../assets/images/icons/ic_weblink.svg);
+  background-size: cover;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  content: "";
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+}
+.project-github:empty::before {
+  background-image: url(../assets/images/logos/tech/github.svg);
+}
+/* strikethrough icon to show it is empty */
+.project-link:empty::after,
+.project-github:empty::after {
+  border-left: 3px solid red;
+  content: "";
+  height: 30px;
+  position: relative;
+  right: 14px;
+  top: 1px;
+  transform: rotate(45deg);
+}
+.project-github:empty {
+  flex-direction: row;
 }
 
 @media only screen and (max-width: 380px) {
@@ -362,10 +401,10 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
     border-radius: 4px;
     display: grid;
     grid-template-areas:
-      "title tldr"
-      "screenshot description"
-      "link . ";
-    grid-template-columns: 200px 1fr;
+      "title tldr tldr tldr "
+      "screenshot description description description"
+      "link link github github ";
+    grid-template-columns: 200px 1fr 1fr 200px;
     grid-template-rows: 40px 1fr min-content;
     margin: 12px auto;
     max-width: 1000px;
@@ -421,16 +460,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
     "link screenshot"
     "github screenshot"
     "description description";
-  grid-template-rows: 60px 70px auto auto auto;
-}
-
-.little-projects .project.no-host {
-  grid-template-areas:
-    "title screenshot"
-    "tldr screenshot"
-    "github screenshot"
-    "description description";
-  grid-template-rows: 60px 70px auto auto;
+  grid-template-rows: 60px 80px auto auto auto;
 }
 
 /* for wider screens, smaller projects, bring in a flex-box layout */

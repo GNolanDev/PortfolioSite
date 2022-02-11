@@ -14,8 +14,8 @@
                 </div>
             </label>
         </div>
-        <div class="project-link"><a href="https://gnolandev.github.io/teacosy/">gnolandev.github.io/teacosy</a></div>
-        <div class="project-github"><a href="https://github.com/GNolanDev/teacosy"></a></div>
+        <div class="project-link"><a href="https://gnolandev.github.io/teacosy/" target="_blank">gnolandev.github.io/teacosy</a></div>
+        <div class="project-github"><a href="https://github.com/GNolanDev/teacosy" target="_blank"></a></div>
         <div class=" project-technology-icons">
             <div class="project-tech-icon html" title="HTML"></div>
             <div class="project-tech-icon css" title="CSS"></div>
@@ -36,8 +36,8 @@
                 </div>
             </label>
         </div>
-        <div class="project-link"><a href="https://gnolandev.github.io/excursion/">gnolandev.github.io/excursion</a></div>
-        <div class="project-github"><a href="https://github.com/GNolanDev/excursion"></a></div>
+        <div class="project-link"><a href="https://gnolandev.github.io/excursion/" target="_blank">gnolandev.github.io/excursion</a></div>
+        <div class="project-github"><a href="https://github.com/GNolanDev/excursion" target="_blank"></a></div>
         <div class=" project-technology-icons">
             <div class="project-tech-icon html" title="HTML"></div>
             <div class="project-tech-icon css" title="CSS"></div>
@@ -58,8 +58,8 @@
                 </div>
             </label>
         </div>
-        <div class="project-link"><a href="https://gnolandev.github.io/MixedMessages/">gnolandev.github.io/MixedMessages</a></div>
-        <div class="project-github"><a href="https://github.com/GNolanDev/MixedMessages"></a></div>
+        <div class="project-link"><a href="https://gnolandev.github.io/MixedMessages/" target="_blank">gnolandev.github.io/MixedMessages</a></div>
+        <div class="project-github"><a href="https://github.com/GNolanDev/MixedMessages" target="_blank"></a></div>
         <div class=" project-technology-icons">
             <div class="project-tech-icon js" title="Javascript"></div>
             <div class="project-tech-icon html" title="HTML"></div>
@@ -67,7 +67,7 @@
         </div>
     </div>
     <div class="project no-host">
-        <div class="project-title">Javascript mini-tasks</div>
+        <div class="project-title">JS Mini-tasks</div>
         <div class="project-screenshot">
             <img src="assets/images/hi-res/sc_findhat.png" alt="">
         </div>
@@ -86,7 +86,8 @@
                 </div>
             </label>
         </div>
-        <div class="project-github"><a href="https://github.com/GNolanDev/FindHatProject">Find My Hat</a><a href="https://github.com/GNolanDev/codecademy_sharing">Other js files</a></div>
+        <div class="project-link"></div>
+        <div class="project-github"><a href="https://github.com/GNolanDev/FindHatProject" target="_blank">Find My Hat</a><a href="https://github.com/GNolanDev/codecademy_sharing" target="_blank">Other js files</a></div>
         <div class=" project-technology-icons">
             <div class="project-tech-icon js" title="Javascript"></div>
             <div class="project-tech-icon node" title="Node"></div>

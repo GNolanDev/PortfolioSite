@@ -14,7 +14,8 @@
                 </div>
             </label>
         </div>
-        <div class="project-link"><a href="https://www.timerthing.com">www.timerthing.com</a></div>
+        <div class="project-link"><a href="https://www.timerthing.com" target="_blank">www.timerthing.com</a></div>
+        <div class="project-github"></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon html" title="HTML"></div>
             <div class="project-tech-icon css" title="CSS"></div>
@@ -39,10 +40,11 @@
                 </div>
             </label>
         </div>
-        <div class="project-link android"><a href="https://play.google.com/store/apps/details?id=com.gingerphysics.sailorsmate">
+        <div class="project-link android"><a href="https://play.google.com/store/apps/details?id=com.gingerphysics.sailorsmate" target="_blank">
                 <div class="project-inline-icon project-icon-playstore"></div>
             </a>
         </div>
+        <div class="project-github"></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon android" title="Android"></div>
             <div class="project-tech-icon xml" title="XML"></div>
