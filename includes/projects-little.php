@@ -66,4 +66,30 @@
             <div class="project-tech-icon css" title="CSS"></div>
         </div>
     </div>
+    <div class="project no-host">
+        <div class="project-title">Javascript mini-tasks</div>
+        <div class="project-screenshot">
+            <img src="assets/images/hi-res/sc_findhat.png" alt="">
+        </div>
+        <div class="project-tldr">A few console based javscript mini-apps</div>
+        <div class="project-description">
+            <label for="chkbx-4-4">
+                <input class="description-checkbox" type="checkbox" id="chkbx-4-4" hidden>
+                <div class="project-description-inner moretext"></div>
+                <div class="project-description-inner">
+                    A few little javascript mini challenges, run from and outputting to the console using Node.js:
+                    <ul>
+                        <li>"Find My Hat" - generate a random maze of holes (pass dimensions and difficulty as parameters) and let user navigate an icon to a 'hat' symbol using text direction inputs, showing a trail behind you.</li>
+                        <li>Credit card # checker - use an algorithm to check an array of credit card numbers and output the companies any invalid numbers belong to.</li>
+                        <li>"Mysterious Organism" - generates 'organisms' with random dna bases, creates array of likely survivors based on survival criteria, compares 2 organisms by similarity.</li>
+                    </ul>
+                </div>
+            </label>
+        </div>
+        <div class="project-github"><a href="https://github.com/GNolanDev/FindHatProject">Find My Hat</a><a href="https://github.com/GNolanDev/codecademy_sharing">Other js files</a></div>
+        <div class=" project-technology-icons">
+            <div class="project-tech-icon js" title="Javascript"></div>
+            <div class="project-tech-icon node" title="Node"></div>
+        </div>
+    </div>
 </section>

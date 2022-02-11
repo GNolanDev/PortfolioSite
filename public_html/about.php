@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/light-theme.css" />
     <link rel="stylesheet" href="css/about.css" />
-    <title>About Gareth</title>
+    <title>About Me</title>
 </head>
 
 <body>

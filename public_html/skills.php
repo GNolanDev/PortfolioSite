@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/dark-theme.css" />
     <link rel="stylesheet" href="css/skills.css" />
-    <title>Gareth's Skills</title>
+    <title>Skills</title>
 </head>
 
 <body>
