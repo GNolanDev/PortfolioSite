@@ -308,9 +308,9 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
 }
 .project-tech-icon.mariadb::before {
   background-image: url(../assets/images/logos/tech/mariadb_white_notext.svg);
-  height: 16px;
+  height: 17px;
   top: 2px;
-  width: 16px;
+  width: 17px;
 }
 .project-tech-icon.android::before {
   background-image: url(../assets/images/logos/tech/Android_head.svg);
@@ -339,12 +339,11 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   left: 2px;
   width: 17px;
 }
-
 /* End of tech icons styling */
 
 /* wide screen project layout */
 @media only screen and (min-width: 800px) {
-  .project {
+  section.projects-page-content-section:not(.little-projects) .project {
     border-radius: 4px;
     display: grid;
     grid-template-areas:
@@ -358,33 +357,42 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
     padding: 12px 4px;
   }
 
-  div.project-description-inner {
+  section.projects-page-content-section:not(.little-projects)
+    div.project-description-inner {
     display: block;
   }
-  div.project-description-inner.moretext {
+  section.projects-page-content-section:not(.little-projects)
+    div.project-description-inner.moretext {
     display: none;
   }
 
-  .project-tldr::before {
+  section.projects-page-content-section:not(.little-projects)
+    .project-tldr::before {
     position: static;
   }
 
-  .project-description {
+  section.projects-page-content-section:not(.little-projects)
+    .project-description {
     padding: 8px;
   }
 
-  .project-tldr {
+  section.projects-page-content-section:not(.little-projects) .project-tldr {
     font-size: 1.3rem;
   }
-  .project > div.project-tldr {
+  section.projects-page-content-section:not(.little-projects)
+    .project
+    > div.project-tldr {
     justify-content: space-evenly;
   }
   /* remove extra padding from play store image */
-  .project-link.android {
+  section.projects-page-content-section:not(.little-projects)
+    .project-link.android {
     margin: -4px;
   }
 
-  .project-screenshot img {
+  section.projects-page-content-section:not(.little-projects)
+    .project-screenshot
+    img {
     max-height: none;
   }
 }
@@ -399,4 +407,26 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
     "github screenshot"
     "description description";
   grid-template-rows: 60px 70px auto auto auto;
+}
+
+/* for wider screens, smaller projects, bring in a flex-box layout */
+@media only screen and (min-width: 500px) {
+  .little-projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 12px;
+  }
+
+  .little-projects .project {
+    border-radius: 8px;
+    height: min-content;
+    margin: 12px;
+    max-width: 500px;
+    transition: transform 0.2s ease-out;
+  }
+
+  .little-projects .project:hover {
+    transform: scale(1.03);
+  }
 }
