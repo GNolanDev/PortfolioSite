@@ -157,7 +157,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
     "github screenshot"
     "description description";
   grid-template-columns: 8fr 5fr;
-  grid-template-rows: 60px 70px auto auto auto;
+  grid-template-rows: min-content 70px auto auto auto;
   margin-bottom: 24px;
   position: relative;
   word-break: break-word;
@@ -175,6 +175,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   font-size: 1.4rem;
   font-weight: bold;
   grid-area: title;
+  margin-top: 30px;
   text-align: center;
 }
 .project > div.project-tldr {
@@ -199,7 +200,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   align-self: center;
   grid-area: screenshot;
   height: min-content;
-  padding: 6px;
+  padding: 12px;
 }
 .project-description {
   grid-area: description;
@@ -301,9 +302,19 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
 
 .project-screenshot img,
 .project-screenshot video {
+  filter: drop-shadow(2px 2px 4px #000)
+    drop-shadow(2px 2px 4px var(--color-primary-dark));
   object-fit: contain;
   max-height: 184px;
-  width: 100%;
+  max-width: 100%;
+}
+.project-description-inner video {
+  border: 5px solid var(--color-primary-dark);
+  display: block;
+  object-fit: contain;
+  margin: 12px 0;
+  max-height: 400px;
+  max-width: 100%;
 }
 
 /* add icons to icon divs */
@@ -429,6 +440,11 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   }
 
   section.projects-page-content-section:not(.little-projects)
+    div.project-title {
+    margin: 0;
+  }
+
+  section.projects-page-content-section:not(.little-projects)
     div.project-description-inner {
     display: block;
   }
@@ -477,7 +493,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
     "link screenshot"
     "github screenshot"
     "description description";
-  grid-template-rows: 60px 80px auto auto auto;
+  grid-template-rows: min-content 80px auto auto auto;
 }
 
 /* for wider screens, smaller projects, bring in a flex-box layout */
