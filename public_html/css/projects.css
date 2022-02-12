@@ -297,7 +297,8 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   width: 130px;
 }
 
-.project-screenshot img {
+.project-screenshot img,
+.project-screenshot video {
   object-fit: contain;
   max-height: 184px;
   width: 100%;
@@ -379,6 +380,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   width: 19px;
 }
 .project-tech-icon.java,
+.project-tech-icon.redux,
 .project-tech-icon.node {
   background-color: #fff;
   border: 0.5px solid var(--color-secondary-dark);
@@ -400,6 +402,12 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
 .project-tech-icon.react::before {
   background-image: url(../assets/images/logos/tech/react.svg);
 }
+.project-tech-icon.redux::before {
+  background-image: url(../assets/images/logos/tech/redux.svg);
+  height: 17px;
+  top: -0.5px;
+  width: 17px;
+}
 /* End of tech icons styling */
 
 /* wide screen project layout */
@@ -412,7 +420,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
       "screenshot description description description"
       "link link github github ";
     grid-template-columns: 200px 1fr 1fr 200px;
-    grid-template-rows: 40px 1fr min-content;
+    grid-template-rows: 42px 1fr min-content;
     margin: 12px auto;
     max-width: 1000px;
     padding: 12px 4px;
