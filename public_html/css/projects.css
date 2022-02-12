@@ -196,7 +196,9 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   padding: 2px 3px 2px 2px;
 }
 .project-screenshot {
+  align-self: center;
   grid-area: screenshot;
+  height: min-content;
   padding: 6px;
 }
 .project-description {
