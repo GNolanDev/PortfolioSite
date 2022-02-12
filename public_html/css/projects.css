@@ -393,6 +393,9 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   top: 3px;
   width: 18px;
 }
+.project-tech-icon.react::before {
+  background-image: url(../assets/images/logos/tech/react.svg);
+}
 /* End of tech icons styling */
 
 /* wide screen project layout */
