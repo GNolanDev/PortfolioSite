@@ -35,11 +35,11 @@
                 <input class="description-checkbox" type="checkbox" id="chkbx-2-2" hidden>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
-                    A project set by Codecademy as part of the full stack path. Uses Create-React-App as a base, html templates given. My job was to create all the components and connect them up, then connect to the Spotify API to fetch songs & create new playlists on the user's account. This was a good overview of how React single page apps are arranged, a chance to see how API documentation works, an opportunity to use build tools, and an introduction to a simple way of deploying via 'surge'.
+                    A project set by Codecademy as part of the full stack path. Uses Create-React-App as a base, html templates given. My job was to create all the components and connect them up, then connect to the <a href="https://developer.spotify.com/documentation/web-api/" target="_blank">Spotify API</a> to fetch songs & create new playlists on the user's account. This was a good overview of how React single page apps are arranged, a chance to see how API documentation works, an opportunity to use build tools, and an introduction to a simple way of deploying via <a href="https://surge.sh/" target="_blank">'surge'</a>.
                 </div>
             </label>
         </div>
-        <div class="project-link"><a href="https://gnolandevjammming.netlify.app" target="_blank"></a></div>
+        <div class=" project-link"><a href="https://gnolandevjammming.netlify.app" target="_blank"></a></div>
         <div class="project-github"><a href="https://github.com/GNolanDev/jammming" target="_blank"></a></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon react" title="React"></div>

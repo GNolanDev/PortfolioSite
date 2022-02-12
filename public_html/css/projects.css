@@ -124,6 +124,10 @@ div.project-description-inner {
 div.project-description-inner ul {
   list-style: circle inside;
 }
+/* allow anchor tag styling in descriptions */
+div.project-description-inner a {
+  text-decoration: underline;
+}
 
 div.project-description-inner.moretext {
   display: block;

@@ -31,7 +31,7 @@
             <ul id="skillsContainer">
                 <li class="skill" id="html5">
                     <div class="skill-logo">
-                        <img src="assets/images/logos/tech/HTML5.svg" alt="html5 logo" />
+                        <img src="assets/images/logos/tech/HTML5.svg" alt="HTML5 logo" />
                     </div>
                     <h2>HTML5</h2>
                     <div class="skill-description">
@@ -44,7 +44,7 @@
                 </li>
                 <li class="skill" id="css3">
                     <div class="skill-logo">
-                        <img src="assets/images/logos/tech/CSS3_logo.svg" alt="css3 logo" />
+                        <img src="assets/images/logos/tech/CSS3_logo.svg" alt="CSS3 logo" />
                     </div>
                     <h2>CSS3</h2>
                     <div class="skill-description">
@@ -57,7 +57,7 @@
                 </li>
                 <li class="skill" id="js">
                     <div class="skill-logo">
-                        <img src="assets/images/logos/tech/javascript.svg" alt="javascript logo" />
+                        <img src="assets/images/logos/tech/javascript.svg" alt="Javascript logo" />
                     </div>
                     <h2>Javascript</h2>
                     <div class="skill-description">
@@ -71,7 +71,7 @@
                 </li>
                 <li class="skill" id="php">
                     <div class="skill-logo">
-                        <img src="assets/images/logos/tech/php.svg" alt="php logo" />
+                        <img src="assets/images/logos/tech/php.svg" alt="PHP logo" />
                     </div>
                     <h2>PHP</h2>
                     <div class="skill-description">
@@ -84,7 +84,7 @@
                 </li>
                 <li class="skill" id="sql">
                     <div class="skill-logo">
-                        <img src="assets/images/logos/tech/mariadb_v_white.svg" alt="mariadb logo" />
+                        <img src="assets/images/logos/tech/mariadb_v_white.svg" alt="MariaDB logo" />
                     </div>
                     <h2>SQL</h2>
                     <div class="skill-description">
@@ -98,7 +98,7 @@
                 </li>
                 <li class="skill" id="android">
                     <div class="skill-logo">
-                        <img src="assets/images//logos/tech/Android.svg" alt="android(TM) logo" />
+                        <img src="assets/images//logos/tech/Android.svg" alt="Android(TM) logo" />
                     </div>
                     <h2>Android</h2>
                     <div class="skill-description">
@@ -113,7 +113,7 @@
                 </li>
                 <li class="skill" id="json">
                     <div class="skill-logo">
-                        <img src="assets/images/logos/tech/JSON.svg" alt="json logo" />
+                        <img src="assets/images/logos/tech/JSON.svg" alt="JSON logo" />
                     </div>
                     <h2>JSON</h2>
                     <div class="skill-description">
@@ -124,12 +124,12 @@
                         written in PHP), for example sending information being stored on a
                         server about a live event to multiple remote devices which are
                         taking concurrent actions. (see
-                        <a href="projects.php">Projects</a>).
+                        <a href="projects.php#item-1">Projects</a>).
                     </div>
                 </li>
                 <li class="skill" id="python">
                     <div class="skill-logo">
-                        <img src="assets/images/logos/tech/python.svg" alt="python logo" />
+                        <img src="assets/images/logos/tech/python.svg" alt="Python logo" />
                     </div>
                     <h2>Python</h2>
                     <div class="skill-description">
@@ -138,6 +138,16 @@
                         large standard library. I have begun learning Python straight
                         after HTML/CSS/JS/PHP as it is so popular and will be a very
                         useful tool for problem solving in future projects.
+                    </div>
+                </li>
+                <li class="skill" id="react">
+                    <div class="skill-logo">
+                        <img src="assets/images/logos/tech/react.svg" alt="React logo" />
+                    </div>
+                    <h2>React</h2>
+                    <div class="skill-description">
+                        A javascript library, originally developed by facebook, which allows for lots of reuse of common components of a user interface.
+                        I learned React as part of the Codecademy full stack course and can see its usefulness in more complex websites with a lot of similar components. I had already built much of <a href="projects.php#item-1">timerthing.com</a> before learning React, but would probably use it if starting that project from scratch. React's main impact has been on my thinking about how best to design a website keeping component reuse in mind.
                     </div>
                 </li>
             </ul>
