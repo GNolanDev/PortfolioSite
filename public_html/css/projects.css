@@ -95,6 +95,16 @@ div.list-label {
   height: 100%;
 }
 
+/* content to show when nothing selected */
+#initial-content {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: 'Raleway';
+}
+.swipe-content:target ~ #initial-content {
+  display: none;
+}
 .swipe-content {
   display: none;
 }

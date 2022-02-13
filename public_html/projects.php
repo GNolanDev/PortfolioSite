@@ -51,6 +51,7 @@
             <div class="swipe-content" id="item-4">
                 <?php include "projects-little.php" ?>
             </div>
+            <div id="initial-content">choose a category</div>
         </div>
     </main>
     <?php
