@@ -2,7 +2,7 @@
     <div class="project">
         <div class="project-title">Bacon Butty Finder</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_baconbutty.png" alt="">
+            <img src="assets/images/hi-res/sc_baconbutty.png" alt="" width="511" height="537" loading="lazy">
         </div>
         <div class="project-tldr">Learning project - playing with geospatial data using Leaflet.js</div>
         <div class="project-description">
@@ -11,7 +11,7 @@
                 <div class="project-description-inner moretext">and video</div>
                 <div class="project-description-inner">
                     A very early project, I wanted to learn how to embed maps and add layers and custom points and labels in my websites. After experimenting with Openlayers & Google Maps I found Leaflet to be a good mix of features, ease of use and lack of cost. Added OpenStreetMap for mapping data & experimented with the Geolocation API on my local XAMPP server. I combined this with some early work on providing secure account login & sessions to enable a user to dynamically add new locations by clicking on the map. These would then be added to an SQL database for retrieval and display on the map. I had fun creating a custom 'bacon butty' png icon & shadow too, finding out a lot about vector/scalar graphics and how to use editors in the process. Once I had learned enough, I mothballed the project at the early prototype stage on my local development machine & moved on to my 'social undistancing' app.
-                    <video src="assets/videos/scv_baconbuttyfinder.mp4" autoplay muted loop controls>Quiz app screen capture video</video>
+                    <video src="assets/videos/scv_baconbuttyfinder.mp4" autoplay muted loop controls loading="lazy" width="1024" height="576">Quiz app screen capture video</video>
                 </div>
             </label>
         </div>
@@ -27,7 +27,7 @@
     <div class="project">
         <div class="project-title">Social Undistancing</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_baconbutty.png" alt="">
+            <img src="assets/images/hi-res/sc_baconbutty.png" alt="" width="511" height="537" loading="lazy">
         </div>
         <div class="project-tldr">Connecting users with each other and tasks</div>
         <div class="project-description">

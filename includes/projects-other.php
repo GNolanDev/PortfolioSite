@@ -2,7 +2,7 @@
     <div class="project">
         <div class="project-title">This Site!</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_portfolio.png" alt="">
+            <img src="assets/images/hi-res/sc_portfolio.png" alt="" width="884" height="1081" loading="lazy">
         </div>
         <div class="project-tldr">My portfolio website</div>
         <div class="project-description">
@@ -27,7 +27,7 @@
     <div class="project">
         <div class="project-title">Jammming</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_jammming.png" alt="">
+            <img src="assets/images/hi-res/sc_jammming.png" alt="" width="977" height="1049" loading="lazy">
         </div>
         <div class="project-tldr">React app - Spotify API</div>
         <div class="project-description">
@@ -51,7 +51,7 @@
     <div class="project">
         <div class="project-title">Reddit Feed</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_reddit.jpg" alt="">
+            <img src="assets/images/hi-res/sc_reddit.jpg" alt="" width="500" height="635" loading="lazy">
         </div>
         <div class="project-tldr">React/Redux app - Reddit API</div>
         <div class="project-description">
@@ -86,7 +86,7 @@
     <div class="project">
         <div class="project-title">Quiz App</div>
         <div class="project-screenshot">
-            <video src="assets/videos/scv_quizapp.mp4" autoplay muted loop>Quiz app screen capture video</video>
+            <video src="assets/videos/scv_quizapp.mp4" autoplay muted loop width="352" height="240">Quiz app screen capture video</video>
         </div>
         <div class="project-tldr">React/Redux app - Quiz Flashcards</div>
         <div class="project-description">
@@ -113,7 +113,7 @@
     <div class="project">
         <div class="project-title">Appointments App</div>
         <div class="project-screenshot">
-            <video src="assets/videos/scv_appointments.mp4" autoplay muted loop>Appointments app screen capture video</video>
+            <video src="assets/videos/scv_appointments.mp4" autoplay muted loop width="352" height="240">Appointments app screen capture video</video>
         </div>
         <div class="project-tldr">React/Redux app - Appointment Maker</div>
         <div class="project-description">

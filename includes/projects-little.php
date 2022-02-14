@@ -2,7 +2,7 @@
     <div class="project">
         <div class="project-title">Tea Cosy</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_teacosy.png" alt="">
+            <img src="assets/images/hi-res/sc_teacosy.png" alt="" width="800" height="846" loading="lazy">
         </div>
         <div class="project-tldr">Simple webpage from a design brief</div>
         <div class="project-description">
@@ -24,7 +24,7 @@
     <div class="project">
         <div class="project-title">Excursion</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_excursion.png" alt="">
+            <img src="assets/images/hi-res/sc_excursion.png" alt="" width="500" height="904" loading="lazy">
         </div>
         <div class="project-tldr">Simple webpage from a design brief</div>
         <div class="project-description">
@@ -46,7 +46,7 @@
     <div class="project">
         <div class="project-title">Mixed Messages</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_euroballs.png" alt="">
+            <img src="assets/images/hi-res/sc_euroballs.png" alt="" width="750" height="585" loading="lazy">
         </div>
         <div class="project-tldr">Codecademy task - javascript random quote generator</div>
         <div class="project-description">
@@ -69,7 +69,7 @@
     <div class="project no-host">
         <div class="project-title">JS Mini-tasks</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_findhat.png" alt="">
+            <img src="assets/images/hi-res/sc_findhat.png" alt="" width="297" height="628" loading="lazy">
         </div>
         <div class="project-tldr">A few console based javscript mini-apps</div>
         <div class="project-description">

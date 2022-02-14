@@ -5,10 +5,6 @@
   }
 }
 
-h1 {
-  text-align: center;
-}
-
 main div {
   line-height: 1.2;
 }
@@ -100,7 +96,7 @@ div.list-label {
   margin-top: 50px;
   text-align: center;
   font-size: 1.4rem;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 .swipe-content:target ~ #initial-content {
   display: none;
@@ -321,10 +317,12 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
 .project-description-inner video {
   border: 5px solid var(--color-primary-dark);
   display: block;
+  height: 100%;
   object-fit: contain;
-  margin: 12px 0;
+  margin: 12px auto;
   max-height: 400px;
   max-width: 100%;
+  width: auto;
 }
 
 /* add icons to icon divs */
@@ -443,7 +441,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
       "screenshot description description description"
       "link link github github ";
     grid-template-columns: 200px 1fr 1fr 200px;
-    grid-template-rows: 42px 1fr min-content;
+    grid-template-rows: min-content 1fr min-content;
     margin: 12px auto;
     max-width: 1000px;
     padding: 12px 4px;
@@ -451,7 +449,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
 
   section.projects-page-content-section:not(.little-projects)
     div.project-title {
-    margin: 0;
+    margin-top: 18px;
   }
 
   section.projects-page-content-section:not(.little-projects)
@@ -490,7 +488,8 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   section.projects-page-content-section:not(.little-projects)
     .project-screenshot
     img {
-    max-height: none;
+    height: 100%;
+    max-height: 100%;
   }
 }
 

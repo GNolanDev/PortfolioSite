@@ -1,6 +1,4 @@
 :root {
-  /* unit to control the size of the flag background */
-  --flag-unit: 1vw;
   /* default dark theme style */
   --color-foreground: #f9f9f9;
   --color-background: #101010;
@@ -27,36 +25,43 @@
 /* TODO: Social media Icons  */
 
 @font-face {
+  font-display: swap;
   font-family: "Red Rose";
   src: url("../assets/fonts/RedRose-VariableFont_wght.ttf");
 }
 
 @font-face {
+  font-display: swap;
   font-family: "Courier Prime";
   src: url("../assets/fonts/Courier_Prime/CourierPrime-Regular.ttf");
 }
 
 @font-face {
+  font-display: swap;
   font-family: Roboto-Regular;
   src: url("../assets/fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
+  font-display: swap;
   font-family: Raleway;
   src: url("../assets/fonts/Raleway-VariableFont_wght.ttf");
 }
 
 @font-face {
+  font-display: swap;
   font-family: RalewayDots;
   src: url("../assets/fonts/RalewayDots-Regular.ttf");
 }
 
 @font-face {
+  font-display: swap;
   font-family: PoiretOne;
   src: url("../assets/fonts/PoiretOne-Regular.ttf");
 }
 
 @font-face {
+  font-display: swap;
   font-family: Forum;
   src: url("../assets/fonts/Forum-Regular.ttf");
 }
@@ -74,41 +79,6 @@ body {
 button:focus-visible {
   box-shadow: 0 0 4px 0 var(--color-background),
     0 0 14px 0 var(--color-foreground);
-}
-
-#background-container {
-  height: 100%;
-  position: fixed;
-  overflow: hidden;
-  width: 100%;
-  z-index: -2;
-}
-
-.flag-uk-container {
-  position: absolute;
-}
-
-#flagBackground2 {
-  display: block;
-  top: calc(60 * var(--flag-unit));
-}
-
-#flagBackground3 {
-  display: block;
-  top: calc(2 * (60 * var(--flag-unit)));
-}
-
-#flagBackground4 {
-  display: block;
-  top: calc(3 * (60 * var(--flag-unit)));
-}
-
-#overlay {
-  background-color: rgba(8, 8, 0, 0.95);
-  height: 100%;
-  position: fixed;
-  width: 100%;
-  z-index: -1;
 }
 
 #pageHeader {
@@ -269,18 +239,6 @@ footer {
 #footerEmail {
   padding: 28px 0;
   text-align: center;
-}
-
-@media (min-aspect-ratio: 5/3) {
-  #flagBackground2 {
-    display: none;
-  }
-}
-
-@media (min-aspect-ratio: 5/6) {
-  #flagBackground3 {
-    display: none;
-  }
 }
 
 @media only screen and (min-width: 900px) {
