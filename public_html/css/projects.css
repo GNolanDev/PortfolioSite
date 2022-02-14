@@ -319,6 +319,10 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   width: auto;
 }
 
+.project-description-inner video#socundi-video {
+  max-height: 300px;
+}
+
 /* add icons to icon divs */
 .project-technology-icons {
   align-items: center;
