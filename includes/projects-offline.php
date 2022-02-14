@@ -8,6 +8,7 @@
         <div class="project-description">
             <label>
                 <input class="description-checkbox" type="checkbox" hidden>
+                <span class="sr-only">Bacon butty finder description</span>
                 <div class="project-description-inner moretext">and video</div>
                 <div class="project-description-inner">
                     A very early project, I wanted to learn how to embed maps and add layers and custom points and labels in my websites. After experimenting with Openlayers & Google Maps I found Leaflet to be a good mix of features, ease of use and lack of cost. Added OpenStreetMap for mapping data & experimented with the Geolocation API on my local XAMPP server. I combined this with some early work on providing secure account login & sessions to enable a user to dynamically add new locations by clicking on the map. These would then be added to an SQL database for retrieval and display on the map. I had fun creating a custom 'bacon butty' png icon & shadow too, finding out a lot about vector/scalar graphics and how to use editors in the process. Once I had learned enough, I mothballed the project at the early prototype stage on my local development machine & moved on to my 'social undistancing' app.
@@ -33,6 +34,7 @@
         <div class="project-description">
             <label>
                 <input class="description-checkbox" type="checkbox" hidden>
+                <span class="sr-only">Social undistancing description</span>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     A challenging project - the idea was to create a website which would allow people ('helpees') to add 'tasks' (shopping, a lift to the doctor's etc), which anyone who was connected to them ('helpers') would be able to see, click to accept, and then update as they went along. Users would be able to have both roles and switch between them, and multiple helpers could be connected to one helpee, and could see if tasks had already been picked up by others.

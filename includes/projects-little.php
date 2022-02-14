@@ -8,6 +8,7 @@
         <div class="project-description">
             <label>
                 <input class="description-checkbox" type="checkbox" hidden>
+                <span class="sr-only">Teacosy description</span>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     Codecademy mini-project - follow a design brief, given image assets, to produce a webpage. Decided to make it responsive too.
@@ -30,6 +31,7 @@
         <div class="project-description">
             <label>
                 <input class="description-checkbox" type="checkbox" hidden>
+                <span class="sr-only">Excursion description</span>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     Another task to follow a design brief to produce a webpage. Again added further code to make it responsive.
@@ -52,6 +54,7 @@
         <div class="project-description">
             <label>
                 <input class="description-checkbox" type="checkbox" hidden>
+                <span class="sr-only">Mixed Messages description</span>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     The challenge was to produce randomised quotes. I took this a bit further and collated funny commentator quotes from during and after games, and also the list of teams from Euro 2020, then had the code generate 2 random quotes & a random pairing of teams to display each time the button is clicked. Github link provided, but also hosted on netlify to try their Continuous deployment from Github system out (euroballs.netlify.app).
@@ -75,6 +78,7 @@
         <div class="project-description">
             <label>
                 <input class="description-checkbox" type="checkbox" hidden>
+                <span class="sr-only">Javascript mini tasks description</span>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     A few little javascript mini challenges, run from and outputting to the console using Node.js:

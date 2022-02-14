@@ -8,6 +8,7 @@
         <div class="project-description">
             <label>
                 <input class="description-checkbox" type="checkbox" hidden>
+                <span class="sr-only">Portfolio page description</span>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     My portfolio website. Originally begun as a small task during the Codecademy Full Stack Developer course, I have added further styling and content to showcase more of my work & experiment with ways to add styling to webpages.
@@ -33,6 +34,7 @@
         <div class="project-description">
             <label>
                 <input class="description-checkbox" type="checkbox" hidden>
+                <span class="sr-only">Jamming app description</span>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     A project set by Codecademy as part of the full stack path. Uses Create-React-App as a base, html templates given. My job was to create all the components and connect them up, then connect to the <a href="https://developer.spotify.com/documentation/web-api/" target="_blank">Spotify API</a> to fetch songs & create new playlists on the user's account. This was a good overview of how React single page apps are arranged, a chance to see how API documentation works, an opportunity to use build tools, and an introduction to a simple way of deploying via <a href="https://surge.sh/" target="_blank">'surge'</a>.
@@ -57,6 +59,7 @@
         <div class="project-description">
             <label>
                 <input class="description-checkbox" type="checkbox" hidden>
+                <span class="sr-only">Reddit app description</span>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     Codecademy project as part of the React-Redux section. Chance to practice using another 3rd party api (reddit) to fetch data, setting up, handling and testing React-Redux with React Developer Tools & ReduxDevTools.
@@ -92,6 +95,7 @@
         <div class="project-description">
             <label>
                 <input class="description-checkbox" type="checkbox" hidden>
+                <span class="sr-only">Quiz app description</span>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     The challenge was to allow a user to create flashcards for simple quizzes, using React-Redux - set by Codecademy as part of the full stack path. Given html templates and React Router basic framework. My job was to create the slices and get all the components talking to each other via actions/reducers/selectors etc. This was a good overview of how React single page apps make use of &lt;BrowserRouter&gt; and Slices to organise the Redux Store, gave another chance to consider Separation of Concerns, and to use build tools.
@@ -119,6 +123,7 @@
         <div class="project-description">
             <label>
                 <input class="description-checkbox" type="checkbox" hidden>
+                <span class="sr-only">Appointments app description</span>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     Short Codecademy challenge - a very simple contacts & appointments page, created using React &lt;BrowserRouter&gt; in a single page app. Uses Create-React-App as a base, given html templates and a React Router basic framework. My job was to create all the components and connect them up, maintaining controlled inputs and keeping "App" stateful while the children remain stateless.
