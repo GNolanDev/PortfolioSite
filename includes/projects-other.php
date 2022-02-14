@@ -2,7 +2,7 @@
     <div class="project">
         <div class="project-title">This Site!</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_portfolio.png" alt="" width="884" height="1081" loading="lazy">
+            <img src="assets/images/hi-res/sc_portfolio.png" alt="" width="884" height="1081">
         </div>
         <div class="project-tldr">My portfolio website</div>
         <div class="project-description">
@@ -27,7 +27,7 @@
     <div class="project">
         <div class="project-title">Jammming</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_jammming.png" alt="" width="977" height="1049" loading="lazy">
+            <img src="assets/images/hi-res/sc_jammming.png" alt="" width="977" height="1049">
         </div>
         <div class="project-tldr">React app - Spotify API</div>
         <div class="project-description">
@@ -51,7 +51,7 @@
     <div class="project">
         <div class="project-title">Reddit Feed</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_reddit.jpg" alt="" width="500" height="635" loading="lazy">
+            <img src="assets/images/hi-res/sc_reddit.jpg" alt="" width="500" height="635">
         </div>
         <div class="project-tldr">React/Redux app - Reddit API</div>
         <div class="project-description">

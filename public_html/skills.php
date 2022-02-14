@@ -31,7 +31,7 @@
             <ul id="skillsContainer">
                 <li class="skill" id="html5">
                     <div class="skill-logo">
-                        <img src="assets/images/logos/tech/HTML5.svg" alt="HTML5 logo" loading="lazy" />
+                        <img src="assets/images/logos/tech/HTML5.svg" alt="HTML5 logo" />
                     </div>
                     <h2>HTML5</h2>
                     <div class="skill-description">
@@ -44,7 +44,7 @@
                 </li>
                 <li class="skill" id="css3">
                     <div class="skill-logo">
-                        <img src="assets/images/logos/tech/CSS3_logo.svg" alt="CSS3 logo" loading="lazy" />
+                        <img src="assets/images/logos/tech/CSS3_logo.svg" alt="CSS3 logo" />
                     </div>
                     <h2>CSS3</h2>
                     <div class="skill-description">
@@ -57,7 +57,7 @@
                 </li>
                 <li class="skill" id="js">
                     <div class="skill-logo">
-                        <img src="assets/images/logos/tech/javascript.svg" alt="Javascript logo" loading="lazy" />
+                        <img src="assets/images/logos/tech/javascript.svg" alt="Javascript logo" />
                     </div>
                     <h2>Javascript</h2>
                     <div class="skill-description">
@@ -71,7 +71,7 @@
                 </li>
                 <li class="skill" id="php">
                     <div class="skill-logo">
-                        <img src="assets/images/logos/tech/php.svg" alt="PHP logo" loading="lazy" />
+                        <img src="assets/images/logos/tech/php.svg" alt="PHP logo" />
                     </div>
                     <h2>PHP</h2>
                     <div class="skill-description">
@@ -84,7 +84,7 @@
                 </li>
                 <li class="skill" id="sql">
                     <div class="skill-logo">
-                        <img src="assets/images/logos/tech/mariadb_v_white.svg" alt="MariaDB logo" loading="lazy" />
+                        <img src="assets/images/logos/tech/mariadb_v_white.svg" alt="MariaDB logo" />
                     </div>
                     <h2>SQL</h2>
                     <div class="skill-description">
@@ -98,7 +98,7 @@
                 </li>
                 <li class="skill" id="android">
                     <div class="skill-logo">
-                        <img src="assets/images//logos/tech/Android.svg" alt="Android(TM) logo" loading="lazy" />
+                        <img src="assets/images//logos/tech/Android.svg" alt="Android(TM) logo" />
                     </div>
                     <h2>Android</h2>
                     <div class="skill-description">
@@ -113,7 +113,7 @@
                 </li>
                 <li class="skill" id="json">
                     <div class="skill-logo">
-                        <img src="assets/images/logos/tech/JSON.svg" alt="JSON logo" loading="lazy" />
+                        <img src="assets/images/logos/tech/JSON.svg" alt="JSON logo" />
                     </div>
                     <h2>JSON</h2>
                     <div class="skill-description">
@@ -129,7 +129,7 @@
                 </li>
                 <li class="skill" id="python">
                     <div class="skill-logo">
-                        <img src="assets/images/logos/tech/python.svg" alt="Python logo" loading="lazy" />
+                        <img src="assets/images/logos/tech/python.svg" alt="Python logo" />
                     </div>
                     <h2>Python</h2>
                     <div class="skill-description">
@@ -142,7 +142,7 @@
                 </li>
                 <li class="skill" id="react">
                     <div class="skill-logo">
-                        <img src="assets/images/logos/tech/react.svg" alt="React logo" loading="lazy" />
+                        <img src="assets/images/logos/tech/react.svg" alt="React logo" />
                     </div>
                     <h2>React</h2>
                     <div class="skill-description">

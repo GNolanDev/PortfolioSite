@@ -2,7 +2,7 @@
     <div class="project">
         <div class="project-title">Timerthing</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_timerthing.png" alt="" width="444" height="615" loading="lazy">
+            <img src="assets/images/hi-res/sc_timerthing.png" alt="" width="444" height="615">
         </div>
         <div class="project-tldr">QR-based event timing website</div>
         <div class="project-description">
@@ -30,7 +30,7 @@
     <div class="project">
         <div class="project-title">Sailor's Mate</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_sailorsmate.png" alt="" width="768" height="1186" loading="lazy">
+            <img src="assets/images/hi-res/sc_sailorsmate.png" alt="" width="768" height="1186">
         </div>
         <div class="project-tldr">Android app - does vector maths for sailors</div>
         <div class="project-description">

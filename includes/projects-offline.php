@@ -2,7 +2,7 @@
     <div class="project">
         <div class="project-title">Bacon Butty Finder</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_baconbutty.png" alt="" width="511" height="537" loading="lazy">
+            <img src="assets/images/hi-res/sc_baconbutty.png" alt="" width="511" height="537">
         </div>
         <div class="project-tldr">Learning project - playing with geospatial data using Leaflet.js</div>
         <div class="project-description">
@@ -27,7 +27,7 @@
     <div class="project">
         <div class="project-title">Social Undistancing</div>
         <div class="project-screenshot">
-            <img src="assets/images/hi-res/sc_baconbutty.png" alt="" width="511" height="537" loading="lazy">
+            <img src="assets/images/hi-res/sc_baconbutty.png" alt="" width="511" height="537">
         </div>
         <div class="project-tldr">Connecting users with each other and tasks</div>
         <div class="project-description">
