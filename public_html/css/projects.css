@@ -98,16 +98,6 @@ div.list-label {
   font-size: 1.4rem;
   font-family: "Raleway";
 }
-.swipe-content:target ~ #initial-content {
-  display: none;
-}
-.swipe-content {
-  display: none;
-}
-
-.swipe-content:target {
-  display: block;
-}
 
 /* main projects content styling */
 .projects-page-content-section {
@@ -249,8 +239,11 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   margin-right: 4px;
   width: 26px;
 }
-.project-github a:empty::after {
+.project-github a::after {
   content: "Github repo";
+}
+.project-github.with-text a::after {
+  content: "";
 }
 
 .project-link:not(.android) a::before {
@@ -310,6 +303,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
 .project-screenshot video {
   filter: drop-shadow(2px 2px 4px #000)
     drop-shadow(2px 2px 4px var(--color-primary-dark));
+  height: auto;
   object-fit: contain;
   max-height: 184px;
   max-width: 100%;
@@ -317,7 +311,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
 .project-description-inner video {
   border: 5px solid var(--color-primary-dark);
   display: block;
-  height: 100%;
+  height: auto;
   object-fit: contain;
   margin: 12px auto;
   max-height: 400px;

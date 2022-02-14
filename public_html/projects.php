@@ -12,6 +12,20 @@
     <link rel="stylesheet" href="css/light-theme.css" media="screen" />
     <link rel="stylesheet" href="css/projects.css" />
     <title>Projects</title>
+    <!-- speed up initial layout - improve CLS -->
+    <style>
+        .swipe-content {
+            display: none;
+        }
+
+        .swipe-content:target {
+            display: block;
+        }
+
+        .swipe-content:target~#initial-content {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>

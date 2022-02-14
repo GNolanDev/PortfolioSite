@@ -12,6 +12,16 @@
   --logo-url: url("../assets/images/logos/colour_beard_no_eb_ondarkbg_thicker.svg");
 }
 
+/* content for screen readers only */
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 /* removed browser default highlighting as it looks awful! */
 *:focus {
   outline: 2px dotted var(--color-foreground);

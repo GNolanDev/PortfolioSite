@@ -6,8 +6,8 @@
         </div>
         <div class="project-tldr">My portfolio website</div>
         <div class="project-description">
-            <label for="chkbx-2-1">
-                <input class="description-checkbox" type="checkbox" id="chkbx-2-1" hidden>
+            <label>
+                <input class="description-checkbox" type="checkbox" hidden>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     My portfolio website. Originally begun as a small task during the Codecademy Full Stack Developer course, I have added further styling and content to showcase more of my work & experiment with ways to add styling to webpages.
@@ -15,8 +15,8 @@
                 </div>
             </label>
         </div>
-        <div class="project-link"></div>
-        <div class="project-github"><a href="https://github.com/GNolanDev/PortfolioSite" target="_blank"></a></div>
+        <div class="project-link" title="website link"></div>
+        <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/PortfolioSite" target="_blank"><span class="sr-only">portfolio website github link</span></a></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon html" title="HTML"></div>
             <div class="project-tech-icon css" title="CSS"></div>
@@ -31,16 +31,16 @@
         </div>
         <div class="project-tldr">React app - Spotify API</div>
         <div class="project-description">
-            <label for="chkbx-2-2">
-                <input class="description-checkbox" type="checkbox" id="chkbx-2-2" hidden>
+            <label>
+                <input class="description-checkbox" type="checkbox" hidden>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     A project set by Codecademy as part of the full stack path. Uses Create-React-App as a base, html templates given. My job was to create all the components and connect them up, then connect to the <a href="https://developer.spotify.com/documentation/web-api/" target="_blank">Spotify API</a> to fetch songs & create new playlists on the user's account. This was a good overview of how React single page apps are arranged, a chance to see how API documentation works, an opportunity to use build tools, and an introduction to a simple way of deploying via <a href="https://surge.sh/" target="_blank">'surge'</a>.
                 </div>
             </label>
         </div>
-        <div class=" project-link"><a href="https://gnolandevjammming.netlify.app" target="_blank">https://gnolandevjammming.netlify.app</a></div>
-        <div class="project-github"><a href="https://github.com/GNolanDev/jammming" target="_blank"></a></div>
+        <div class=" project-link" title="website link"><a href="https://gnolandevjammming.netlify.app" target="_blank">https://gnolandevjammming.netlify.app</a></div>
+        <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/jammming" target="_blank"><span class="sr-only">Jammming github link</span></a></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon react" title="React"></div>
             <div class="project-tech-icon js" title="Javascript"></div>
@@ -55,8 +55,8 @@
         </div>
         <div class="project-tldr">React/Redux app - Reddit API</div>
         <div class="project-description">
-            <label for="chkbx-2-3">
-                <input class="description-checkbox" type="checkbox" id="chkbx-2-3" hidden>
+            <label>
+                <input class="description-checkbox" type="checkbox" hidden>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     Codecademy project as part of the React-Redux section. Chance to practice using another 3rd party api (reddit) to fetch data, setting up, handling and testing React-Redux with React Developer Tools & ReduxDevTools.
@@ -72,9 +72,9 @@
                 </div>
             </label>
         </div>
-        <div class=" project-link"><a href="https://gnolandev-reddit-project.netlify.app" target="_blank">https://gnolandev-reddit-project.netlify.app</a>
+        <div class="project-link" title="website link"><a href="https://gnolandev-reddit-project.netlify.app" target="_blank">https://gnolandev-reddit-project.netlify.app</a>
         </div>
-        <div class="project-github"><a href="https://github.com/GNolanDev/reddit-project" target="_blank"></a></div>
+        <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/reddit-project" target="_blank"><span class="sr-only">Reddit project github link</span></a></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon react" title="React"></div>
             <div class="project-tech-icon redux" title="Redux"></div>
@@ -90,8 +90,8 @@
         </div>
         <div class="project-tldr">React/Redux app - Quiz Flashcards</div>
         <div class="project-description">
-            <label for="chkbx-2-4">
-                <input class="description-checkbox" type="checkbox" id="chkbx-2-4" hidden>
+            <label>
+                <input class="description-checkbox" type="checkbox" hidden>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     The challenge was to allow a user to create flashcards for simple quizzes, using React-Redux - set by Codecademy as part of the full stack path. Given html templates and React Router basic framework. My job was to create the slices and get all the components talking to each other via actions/reducers/selectors etc. This was a good overview of how React single page apps make use of &lt;BrowserRouter&gt; and Slices to organise the Redux Store, gave another chance to consider Separation of Concerns, and to use build tools.
@@ -99,9 +99,9 @@
                 </div>
             </label>
         </div>
-        <div class=" project-link"><a href="https://gnolandevquiz-app.netlify.app" target="_blank">https://gnolandevquiz-app.netlify.app</a>
+        <div class=" project-link" title="website link"><a href="https://gnolandevquiz-app.netlify.app" target="_blank">https://gnolandevquiz-app.netlify.app</a>
         </div>
-        <div class="project-github"><a href="https://github.com/GNolanDev/quiz-app" target="_blank"></a></div>
+        <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/quiz-app" target="_blank"><span class="sr-only">Quiz app github link</span></a></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon react" title="React"></div>
             <div class="project-tech-icon redux" title="Redux"></div>
@@ -117,17 +117,17 @@
         </div>
         <div class="project-tldr">React/Redux app - Appointment Maker</div>
         <div class="project-description">
-            <label for="chkbx-2-5">
-                <input class="description-checkbox" type="checkbox" id="chkbx-2-5" hidden>
+            <label>
+                <input class="description-checkbox" type="checkbox" hidden>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     Short Codecademy challenge - a very simple contacts & appointments page, created using React &lt;BrowserRouter&gt; in a single page app. Uses Create-React-App as a base, given html templates and a React Router basic framework. My job was to create all the components and connect them up, maintaining controlled inputs and keeping "App" stateful while the children remain stateless.
                 </div>
             </label>
         </div>
-        <div class=" project-link"><a href="https://gnolandevappointmentplanner.netlify.app" target="_blank">https://gnolandevappointmentplanner.netlify.app</a>
+        <div class="project-link" title="website link"><a href="https://gnolandevappointmentplanner.netlify.app" target="_blank">https://gnolandevappointmentplanner.netlify.app</a>
         </div>
-        <div class="project-github"><a href="https://github.com/GNolanDev/appointmentplanner" target="_blank"></a></div>
+        <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/appointmentplanner" target="_blank"><span class="sr-only">Appointments app github link</span></a></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon react" title="React"></div>
             <div class="project-tech-icon js" title="Javascript"></div>

@@ -5,7 +5,7 @@
             <div class="logo" id="logoNavbar"></div>
             <span id="headerName">GNolan</span>
         </a>
-        <button id="hamburgerIcon">
+        <button id="hamburgerIcon" name="expand menu" aria-label="expand menu">
             <svg height="29px" width="30px" viewBox="0 0 29 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <g>
                     <g>
