@@ -16,7 +16,7 @@
                 </div>
             </label>
         </div>
-        <div class="project-link" title="website link"></div>
+        <div class="project-link" title="website link"><a href="https://gnolan.online" target="_blank">http://gnolan.online</a></div>
         <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/PortfolioSite" target="_blank"><span class="sr-only">portfolio website github link</span></a></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon html" title="HTML"></div>

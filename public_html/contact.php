@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/normalise.css" media="screen" />
     <link rel="stylesheet" href="css/main.css" media="screen" />
     <link rel="stylesheet" href="css/light-theme.css" media="screen" />
-    <link rel="stylesheet" href="css/projects.css" media="screen" />
+    <link rel="stylesheet" href="css/contact.css" media="screen" />
     <title>Contact</title>
 </head>
 
@@ -22,9 +22,6 @@
     <main>
         <h1>Coming Soon...</h1>
     </main>
-    <?php
-    include 'footer.php';
-    ?>
     <script src="src/menu.js"></script>
 </body>
 

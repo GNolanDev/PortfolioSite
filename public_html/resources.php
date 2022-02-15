@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/unionflagbackground.css" media="screen" />
     <link rel="stylesheet" href="css/main.css" media="screen" />
     <link rel="stylesheet" href="css/light-theme.css" media="screen" />
-    <link rel="stylesheet" href="css/projects.css" media="screen" />
+    <link rel="stylesheet" href="css/resources.css" media="screen" />
     <title>Resources</title>
 </head>
 
