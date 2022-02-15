@@ -20,7 +20,15 @@
     include 'header.php';
     ?>
     <main>
-        <h1>Coming Soon...</h1>
+        <div id="background-container">
+            <div id="background-segment"></div>
+        </div>
+        <div id="contact-text">
+            <div id="shaper"></div>
+            <h1>Let's be friends!</h1>
+            I'm always looking for new, interesting challenges<br />
+            If you'd like me to be a part of something you're working on, please get in touch
+        </div>
     </main>
     <script src="src/menu.js"></script>
 </body>

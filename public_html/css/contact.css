@@ -1,3 +1,105 @@
-h1 {
-  text-align: center;
+/* for very small screens */
+@media only screen and (max-width: 300px) {
+  html {
+    font-size: 0.8em;
+  }
+}
+
+/* background shapes */
+#background-container {
+  height: 100vw;
+  overflow: hidden;
+  position: absolute;
+  width: 100vw;
+  z-index: -1;
+}
+
+#background-segment {
+  background-image: radial-gradient(
+    closest-side,
+    var(--color-primary-lightbackground),
+    var(--color-primary-ultralight)
+  );
+  border-radius: 50%;
+  height: 200%;
+  left: 0;
+  position: absolute;
+  top: -100%;
+  width: 200%;
+}
+
+/* match header colour to allow bg shape to start just below header */
+#pageHeader {
+  background-image: linear-gradient(
+    to left,
+    var(--color-primary-lightbackground),
+    var(--color-primary-ultralight)
+  );
+  height: 76px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 450px) {
+  #background-segment {
+    height: 150%;
+    left: 25%;
+    top: -75%;
+    width: 150%;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  #background-segment {
+    height: 90%;
+    left: 25%;
+    top: 40%;
+    width: 90%;
+  }
+}
+/* end of background shapes */
+
+#contact-text {
+  display: inline-block;
+  font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.7px;
+  line-height: 1.4;
+  padding-right: 12px;
+  text-align: right;
+}
+
+#contact-text h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 16px 12px 12px 28px;
+  text-align: left;
+}
+
+#shaper {
+  float: left;
+  height: 100vw;
+  shape-outside: polygon(
+    0% 0%,
+    0 100%,
+    100% 100%,
+    75% 96%,
+    50% 86%,
+    14% 50%,
+    4% 25%
+  );
+  width: calc(100vw - 20px);
+}
+
+@media only screen and (min-width: 450px) {
+  #pageHeader {
+    background-image: linear-gradient(
+      to left,
+      var(--color-primary-lightbackground),
+      var(--color-primary-ultralight) 75%,
+      var(--color-background) 75%,
+      var(--color-background)
+    );
+  }
 }
