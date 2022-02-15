@@ -115,6 +115,8 @@ div.project-description-inner {
   display: none;
   font-size: 1rem;
   font-style: italic;
+  letter-spacing: 0.4px;
+  word-spacing: 0.4px;
 }
 /* allow list styling in descriptions */
 div.project-description-inner ul {
@@ -247,14 +249,14 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
 }
 
 .project-link:not(.android) a::before {
-  background-image: url(../assets/images/icons/ic_weblink.svg);
+  background-image: url(../assets/icons/ic_weblink.svg);
 }
 
 /* add 'empty' icons as placeholders for any elements without a website or a github repo */
 .project-link:empty::before,
 .project-github:empty::before {
   background-color: #fff;
-  background-image: url(../assets/images/icons/ic_weblink.svg);
+  background-image: url(../assets/icons/ic_weblink.svg);
   background-size: cover;
   border: 2px solid #fff;
   border-radius: 4px;
