@@ -63,7 +63,7 @@
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     Codecademy project as part of the React-Redux section. Chance to practice using another 3rd party api (reddit) to fetch data, setting up, handling and testing React-Redux with React Developer Tools & ReduxDevTools.
-                    Technologies used: ECMAScript 6, React, Redux, CSS, React Testing Library & MSW for api mocking.
+                    Technologies used: ECMAScript 6, React, Redux, CSS, React Testing Library + Jest & MSW for api mocking.
                     The challenge was to create a single page application which:
                     <ul>
                         <li>as a user will show me a list of subreddits as collected from the Reddit API</li>
