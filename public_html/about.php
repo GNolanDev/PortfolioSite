@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" href="assets/images/logos/favicons/favicon.png" />
     <link rel="stylesheet" href="css/normalise.css" media="screen" />
     <link rel="stylesheet" href="css/main.css" media="screen" />
+    <link rel="stylesheet" href="css/footer.css" media="screen" />
     <link rel="stylesheet" href="css/light-theme.css" media="screen" />
     <link rel="stylesheet" href="css/about.css" media="screen" />
     <title>About Me</title>

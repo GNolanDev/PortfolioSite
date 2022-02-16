@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/normalise.css" media="screen" />
     <link rel="stylesheet" href="css/unionflagbackground.css" media="screen" />
     <link rel="stylesheet" href="css/main.css" media="screen" />
+    <link rel="stylesheet" href="css/footer.css" media="screen" />
     <link rel="stylesheet" href="css/dark-theme.css" media="screen" />
     <link rel="stylesheet" href="css/skills.css" media="screen" />
     <title>Skills</title>

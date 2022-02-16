@@ -4,6 +4,5 @@
   --logo-url: url("../assets/images/logos/colour_beard_no_eb_ondarkbg_thicker.svg");
   --link-underline: #312e24;
   --link-underline-thispage: #5d522d;
-  --media-icon-background: #333333;
-  --media-icon-border: #222222;
+  --sm-icon-bg: var(--color-secondary-dark);
 }

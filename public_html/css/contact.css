@@ -144,6 +144,7 @@ body {
   position: absolute;
   top: max(75vw, 270px);
   width: 100%;
+  z-index: -1;
 }
 
 div.icon-holder {
@@ -162,7 +163,6 @@ div.icon {
 }
 
 div.icon::before {
-  content: "test";
   height: auto;
   width: 100%;
 }

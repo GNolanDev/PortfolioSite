@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" href="assets/images/logos/favicons/favicon.png" />
     <link rel="stylesheet" href="css/normalise.css" media="screen" />
     <link rel="stylesheet" href="css/main.css" media="screen" />
+    <link rel="stylesheet" href="css/footer.css" media="screen" />
     <link rel="stylesheet" href="css/light-theme.css" media="screen" />
     <link rel="stylesheet" href="css/blog.css" media="screen" />
     <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>

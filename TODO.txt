@@ -1,5 +1,5 @@
+style footer icons - theme colours?
 add srcset for images to reduce bandwidth on smaller screens & switch to webp
-Finish other project styling - screenshot/video of socundi
 Change folder structure to allow for jekyll building of static site instead of php.
 Add "about me" info & styling.
 Add "Contact" info in page and footer.

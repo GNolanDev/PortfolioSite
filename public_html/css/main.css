@@ -234,31 +234,6 @@ main {
   margin: 0 0 auto 0;
 }
 
-footer {
-  flex-grow: 0;
-  width: 100%;
-}
-
-#socialContainer {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 60px;
-}
-
-.social-media {
-  background-color: var(--media-icon-background);
-  border: 1px solid var(--media-icon-border);
-  border-radius: 4px;
-  height: 40px;
-  margin: 2px;
-  width: 40px;
-}
-
-#footerEmail {
-  padding: 28px 0;
-  text-align: center;
-}
-
 @media only screen and (min-width: 900px) {
   #hamburgerIcon {
     display: none;
