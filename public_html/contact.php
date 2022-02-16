@@ -16,13 +16,13 @@
 </head>
 
 <body>
+    <div id="background-container">
+        <div id="background-segment"></div>
+    </div>
     <?php
     include 'header.php';
     ?>
     <main>
-        <div id="background-container">
-            <div id="background-segment"></div>
-        </div>
         <div id="contact-text">
             <div id="shaper"></div>
             <h1>Let's be friends!</h1>
