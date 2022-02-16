@@ -29,6 +29,23 @@
             I'm always looking for new, interesting challenges<br />
             If you'd like me to be a part of something you're working on, please get in touch
         </div>
+        <div id="contact-icons">
+            <div class="icon-holder">
+                <a href="mailto:GNolanDev@gmail.com" title="email me">
+                    <div id="email-icon" class="icon"></div>
+                </a>
+            </div>
+            <div class="icon-holder">
+                <a href="https://m.me/gareth.j.nolan" target="_blank" title="facebook messenger">
+                    <div id="fb-icon" class="icon"></div>
+                </a>
+            </div>
+            <div class="icon-holder">
+                <a href="https://www.linkedin.com/in/gareth-nolan-web" target="_blank" title="Linkedin">
+                    <div id="linkedin-icon" class="icon"></div>
+                </a>
+            </div>
+        </div>
     </main>
     <script src="src/menu.js"></script>
 </body>
