@@ -29,6 +29,11 @@
             I'm always looking for new, interesting challenges<br />
             If you'd like me to be a part of something you're working on, please get in touch
         </div>
+        <div id="contact-icons">
+            <div id="email-icon" class="icon"></div>
+            <div id="fb-icon" class="icon"></div>
+            <div id="linkedin-icon" class="icon"></div>
+        </div>
     </main>
     <script src="src/menu.js"></script>
 </body>

@@ -147,3 +147,45 @@ body {
     font-size: 1.7rem;
   }
 }
+
+/* icon styling */
+#contact-icons {
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 4px 8px 24px 8px;
+  position: absolute;
+  width: 100%;
+}
+
+div.icon {
+  background-color: var(--color-secondary-dark);
+  border-radius: 50%;
+  height: calc(120px / (1 + (0.2 * var(--nth-child))));
+  width: calc(120px / (1 + (0.2 * var(--nth-child))));
+}
+
+div.icon::before {
+  content: "test";
+}
+
+#email-icon {
+  --nth-child: 1;
+}
+#email-icon::before {
+  content: url(../assets/icons/ic_mail.svg);
+}
+
+#fb-icon {
+  --nth-child: 2;
+}
+#fb-icon::before {
+  content: url(../assets/icons/ic_facebook.svg);
+}
+
+#linkedin-icon {
+  --nth-child: 3;
+}
+#linkedin-icon::before {
+  content: url(../assets/icons/ic_linkedin.svg);
+}
