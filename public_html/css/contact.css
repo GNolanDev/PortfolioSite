@@ -69,6 +69,7 @@ body {
   font-size: 1.3rem;
   letter-spacing: 0.7px;
   line-height: 1.4;
+  padding-left: 6px;
   padding-right: 12px;
   text-align: right;
 }
@@ -103,13 +104,17 @@ body {
     width: calc(75vw - 24px);
   }
   #contact-text {
-    padding-left: 15vw;
+    padding-left: 17vw;
   }
 }
 
 @media only screen and (min-width: 650px) {
   #contact-text {
-    padding-left: 20vw;
+    padding-left: 22vw;
+    padding-right: 40px;
+  }
+  #contact-text h1 {
+    padding-left: 110px;
   }
   #shaper {
     height: 45vw;
@@ -124,5 +129,21 @@ body {
       20% 0%
     );
     width: 10vw;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  #contact-text {
+    padding-left: 25vw;
+    padding-right: 80px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #contact-text h1 {
+    font-size: 2rem;
+  }
+  #contact-text {
+    font-size: 1.7rem;
   }
 }
