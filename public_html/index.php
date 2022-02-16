@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="index-page-root">
 
 <head>
     <meta charset="UTF-8" />

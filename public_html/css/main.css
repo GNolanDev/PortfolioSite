@@ -13,6 +13,13 @@
   --logo-url: url("../assets/images/logos/colour_beard_no_eb_ondarkbg_thicker.svg");
 }
 
+/* for very small screens, except on main landing page */
+@media only screen and (max-width: 300px) {
+  html:not(.index-page-root) {
+    font-size: 0.8em;
+  }
+}
+
 /* content for screen readers only */
 .sr-only {
   position: absolute;

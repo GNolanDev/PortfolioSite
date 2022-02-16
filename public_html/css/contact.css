@@ -1,4 +1,3 @@
-/* for very small screens */
 @media only screen and (max-width: 310px) {
   html {
     font-size: 0.8em;
@@ -31,18 +30,6 @@ body {
   top: calc(-100% + 56px);
   width: 200%;
 }
-
-/* match header colour to allow bg shape to start just below header */
-/* #pageHeader {
-  background-image: linear-gradient(
-    to left,
-    var(--color-primary-lightbackground),
-    var(--color-primary-ultralight)
-  );
-  height: 76px;
-  margin: 0;
-  padding-bottom: 20px;
-} */
 
 @media only screen and (min-width: 450px) {
   #background-segment {
