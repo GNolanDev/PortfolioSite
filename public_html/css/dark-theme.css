@@ -4,5 +4,19 @@
   --logo-url: url("../assets/images/logos/colour_beard_no_eb_ondarkbg_thicker.svg");
   --link-underline: #312e24;
   --link-underline-thispage: #5d522d;
-  --sm-icon-bg: var(--color-secondary-dark);
+  --sm-icon-bg: #000;
+}
+
+/* footer media icons */
+#linkedin-icon::before {
+  content: url(../assets/icons/ic_linkedin.svg);
+}
+#email-icon::before {
+  content: url(../assets/icons/ic_mail.svg);
+}
+#fb-icon::before {
+  content: url(../assets/icons/ic_facebook_dark.svg);
+}
+div.icon {
+  box-shadow: 0 0 4px 1.1px rgba(255,255,255,0.5);
 }

@@ -213,7 +213,8 @@ div.icon::before {
     padding: 24px;
     width: 100px;
   }
-  #linkedin-icon {
+  #linkedin-icon,
+  #fb-icon {
     padding-top: 25px;
   }
 }

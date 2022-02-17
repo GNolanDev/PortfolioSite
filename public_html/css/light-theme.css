@@ -4,5 +4,16 @@
   --logo-url: url("../assets/images/logos/colour_beard_no_eb_thicker.svg");
   --link-underline: var(--color-primary-standard);
   --link-underline-thispage: #9d9273;
-  --sm-icon-bg: var(--color-primary-dark);
+  --sm-icon-bg: var(--color-primary-standard);
+}
+
+/* footer media icons */
+#linkedin-icon::before {
+  content: url(../assets/icons/ic_linkedin_primary.svg);
+}
+#email-icon::before {
+  content: url(../assets/icons/ic_mail_primary.svg);
+}
+#fb-icon::before {
+  content: url(../assets/icons/ic_facebook_primary.svg);
 }

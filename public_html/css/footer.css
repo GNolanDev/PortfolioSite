@@ -14,7 +14,7 @@ footer {
   flex: 0 1 70px;
 }
 
-div.icon {
+.icon-holder-footer div.icon {
   background-color: var(--sm-icon-bg);
   border-radius: 50%;
   filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.6));
@@ -24,11 +24,11 @@ div.icon {
   width: 60px;
 }
 
-div.icon img {
+.icon-holder-footer div.icon img {
   height: auto;
   width: 100%;
 }
 
-svg path {
-  fill: red;
+.icon-holder-footer #linkedin-icon {
+  padding: 15px 14px 14px 14px;
 }
