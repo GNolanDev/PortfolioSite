@@ -22,6 +22,7 @@
         <div class="flag-uk-container"></div>
         <div class="flag-uk-container" id="flagBackground2"></div>
         <div class="flag-uk-container" id="flagBackground3"></div>
+        <div class="flag-uk-container" id="flagBackground4"></div>
     </div>
     <div id="overlay"></div>
     <?php

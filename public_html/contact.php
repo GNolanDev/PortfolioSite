@@ -17,8 +17,10 @@
 </head>
 
 <body>
-    <div id="background-container">
-        <div id="background-segment"></div>
+    <div id="background-overflow-stop">
+        <div id="background-container">
+            <div id="background-segment"></div>
+        </div>
     </div>
     <?php
     include 'header.php';

@@ -35,7 +35,7 @@
                 Welcome to my site.<br />
                 <div id="intro-longtext">
                     I am a fledgling full-stack developer who loves problem solving and learning new stuff.<br />
-                    Feel free to take a look around, & get in touch if you think I might be able to help.
+                    Feel free to take a look around, & <a href="contact.php">get in touch</a> if you think I might be able to help.
                 </div>
             </div>
         </section>
