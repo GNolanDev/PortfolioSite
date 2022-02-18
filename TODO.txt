@@ -1,2 +1,3 @@
+add some images (& fades eg image-mask) to make 'about me' more interesting
 add srcset for images to reduce bandwidth on smaller screens & switch to webp
 Change folder structure to allow for jekyll building of static site instead of php.

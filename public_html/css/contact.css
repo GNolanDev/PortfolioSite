@@ -10,6 +10,7 @@
   width: 100vw;
   overflow: hidden;
   position: absolute;
+  z-index: -1;
 }
 
 #background-container {
