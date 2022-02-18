@@ -18,7 +18,7 @@
 
 <body>
     <?php
-    include 'header.php';
+    include 'gnolan-header.php';
     ?>
     <main>
         <section class="aboutme-content">
@@ -71,7 +71,7 @@
         </section>
     </main>
     <?php
-    include 'footer.php';
+    include 'gnolan-footer.php';
     ?>
     <script src="src/menu.js"></script>
 </body>

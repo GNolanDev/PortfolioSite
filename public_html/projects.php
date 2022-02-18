@@ -32,7 +32,7 @@
 
 <body>
     <?php
-    include 'header.php';
+    include 'gnolan-header.php';
     ?>
     <main>
         <ul id="tablist-largescreen">
@@ -70,7 +70,7 @@
         </div>
     </main>
     <?php
-    include 'footer.php';
+    include 'gnolan-footer.php';
     ?>
     <script src="src/menu.js"></script>
     <script src="src/projects.js"></script>
