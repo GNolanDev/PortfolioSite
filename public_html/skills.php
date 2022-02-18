@@ -26,7 +26,7 @@
     </div>
     <div id="overlay"></div>
     <?php
-    include 'header.php';
+    include 'gnolan-header.php';
     ?>
     <main>
         <section id="mainContent">
@@ -157,7 +157,7 @@
         </section>
     </main>
     <?php
-    include 'footer.php';
+    include 'gnolan-footer.php';
     ?>
     <script src="src/menu.js"></script>
 </body>

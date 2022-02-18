@@ -23,7 +23,7 @@
         </div>
     </div>
     <?php
-    include 'header.php';
+    include 'gnolan-header.php';
     ?>
     <main>
         <div id="contact-text">

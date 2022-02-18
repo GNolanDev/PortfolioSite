@@ -19,13 +19,13 @@
 
 <body>
     <?php
-    include 'header.php';
+    include 'gnolan-header.php';
     ?>
     <main>
         <h1>Coming Soon...</h1>
     </main>
     <?php
-    include 'footer.php';
+    include 'gnolan-footer.php';
     ?>
     <script src="src/menu.js"></script>
 </body>
