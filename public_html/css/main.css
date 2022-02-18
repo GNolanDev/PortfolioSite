@@ -1,12 +1,14 @@
 :root {
   /* default dark theme style */
-  --color-foreground: #f9f9f9;
   --color-background: #101010;
+  --color-foreground: #f9f9f9;
   --color-primary-dark: #837c65;
   --color-primary-light: #e5ddc3;
-  --color-primary-ultralight: #fffde7;
-  --color-primary-standard: #b3ab93;
   --color-primary-lightbackground: #c1baa7;
+  --color-primary-standard: #b3ab93;
+  --color-primary-ultralight: #fffde7;
+  --color-primary-ultradark: #56503b;
+  --color-screenblue: #0005e6;
   --color-secondary-dark: #4b636e;
   --color-secondary-light: #a7c0cd;
   --color-secondary-standard: #78909c;
@@ -36,16 +38,19 @@
   outline-offset: 4px;
 }
 
-/* :root * {
-  border: 1px solid red;
-} */
-
-/* TODO: Social media Icons  */
+@font-face {
+  font-display: swap;
+  font-family: "Amstrad";
+  src: url("../assets/fonts/amstrad_cpc464.woff") format("woff"),
+    url("../assets/fonts/amstrad_cpc464.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-display: swap;
   font-family: "Red Rose";
-  src: url("../assets/fonts/RedRose-VariableFont_wght.ttf");
+  src: url("../assets/fonts/RedRose.ttf");
 }
 
 @font-face {
@@ -57,31 +62,31 @@
 @font-face {
   font-display: swap;
   font-family: Roboto-Regular;
-  src: url("../assets/fonts/Roboto-Regular.ttf");
+  src: url("../assets/fonts/Roboto.ttf");
 }
 
 @font-face {
   font-display: swap;
   font-family: Raleway;
-  src: url("../assets/fonts/Raleway-VariableFont_wght.ttf");
+  src: url("../assets/fonts/Raleway.ttf");
 }
 
 @font-face {
   font-display: swap;
   font-family: RalewayDots;
-  src: url("../assets/fonts/RalewayDots-Regular.ttf");
+  src: url("../assets/fonts/RalewayDots.ttf");
 }
 
 @font-face {
   font-display: swap;
   font-family: PoiretOne;
-  src: url("../assets/fonts/PoiretOne-Regular.ttf");
+  src: url("../assets/fonts/PoiretOne.ttf");
 }
 
 @font-face {
   font-display: swap;
   font-family: Forum;
-  src: url("../assets/fonts/Forum-Regular.ttf");
+  src: url("../assets/fonts/Forum.ttf");
 }
 
 body {

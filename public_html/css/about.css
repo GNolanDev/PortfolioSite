@@ -1,3 +1,104 @@
+body {
+  background-color: var(--color-primary-light);
+}
+
+main {
+  font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.1rem;
+}
+
+/* expand when clicked style for sections */
+.aboutme-detail {
+  line-height: normal;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 300ms ease-out;
+}
+
+.aboutme-detail-inner {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 400ms ease-out;
+}
+
+.expand-checkbox:checked ~ .aboutme-container .aboutme-detail {
+  max-height: 1200px;
+  overflow-y: auto;
+}
+.expand-checkbox:checked
+  ~ .aboutme-intro.aboutme-container
+  .aboutme-detail-inner {
+  max-height: 1200px;
+}
+.expand-checkbox:checked
+  ~ .aboutme-personal.aboutme-container
+  .aboutme-detail-inner {
+  max-height: 700px;
+}
+.expand-checkbox:checked
+  ~ .aboutme-early.aboutme-container
+  .aboutme-detail-inner {
+  max-height: 300px;
+}
+/* end of expansion styling */
+
+h1,
+.aboutme-container {
+  background-color: var(--color-primary-ultralight);
+  box-shadow: 0 0 6px 2px var(--color-primary-ultralight);
+  color: var(--color-primary-ultradark);
+  margin: auto;
+}
+
 h1 {
+  border-radius: 11px 19px;
+  font-size: 1.5rem;
+  padding: 12px;
   text-align: center;
+  width: max-content;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-left: -4px;
+}
+.expand-checkbox:checked ~ .aboutme-container h2 {
+  margin: 0 0 6px -4px;
+}
+
+.aboutme-content {
+  margin: auto;
+  max-width: 1000px;
+  padding: 0 12px;
+  position: relative;
+}
+
+.aboutme-container {
+  border-radius: 12px;
+  padding: 24px;
+  margin-top: 16px;
+}
+
+/* specific early years style */
+.aboutme-container.aboutme-early {
+  background-color: var(--color-screenblue);
+  box-shadow: 0 0 6px 2px var(--color-screenblue);
+  color: yellow;
+  filter: contrast(0.5) sepia(0.4);
+}
+
+.expand-checkbox:checked ~ .aboutme-container.aboutme-early {
+  filter: none;
+  font-family: "Amstrad", "Courier Prime", monospace;
+  font-size: 0.9rem;
+}
+.expand-checkbox:checked ~ .aboutme-container.aboutme-early h2 {
+  font-size: 1.1rem;
+}
+.expand-checkbox:checked ~ .aboutme-container.aboutme-early .aboutme-detail {
+  line-height: 1.2;
+}
+
+#ams-cursor {
+  background-color: yellow;
 }
