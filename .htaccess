@@ -1,12 +1,12 @@
 # set include path for php files
 
 # development server
-# php_value include_path "/xampp/htdocs/PortfolioSite/includes"
-# php_flag display_errors On
+php_value include_path "/xampp/htdocs/PortfolioSite/includes"
+php_flag display_errors On
 
 # production server
 # php_value include_path set by config panel on host
-php_flag display_errors Off
+# php_flag display_errors Off
 
 # set default page to view if user accesses directory with "/"
 DirectoryIndex index.php
