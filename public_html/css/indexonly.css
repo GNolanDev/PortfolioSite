@@ -1,3 +1,8 @@
+/* allow anchor tag to have underline in intro text */
+#introduction a {
+  text-decoration: underline;
+}
+
 /* 'hero' content - code-style introduction as a big splash image */
 #hero-container {
   background-image: linear-gradient(
@@ -86,6 +91,7 @@
 }
 
 /* other animation */
+/* page header and footer slow fade in */
 #pageHeader,
 #pageFooter {
   filter: blur(4px);
@@ -99,6 +105,7 @@
   opacity: 1;
 }
 
+/* introduction text bounce in after code animation */
 #introduction {
   border: none;
   font-size: 36px;
