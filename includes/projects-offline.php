@@ -20,7 +20,7 @@
         <div class="project-github" title="no github repo"></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon html" title="HTML"></div>
-            <div class="project-tech-icon js" title="Javascript"></div>
+            <div class="project-tech-icon js" title="JavaScript"></div>
             <div class="project-tech-icon php" title="PHP"></div>
             <div class="project-tech-icon mariadb" title="MariaDB / MySQL"></div>
         </div>

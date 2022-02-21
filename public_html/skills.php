@@ -62,7 +62,7 @@
                     <div class="skill-logo">
                         <img src="assets/images/logos/tech/javascript.svg" alt="Javascript logo" />
                     </div>
-                    <h2>Javascript</h2>
+                    <h2>JavaScript</h2>
                     <div class="skill-description">
                         A scripting language responsible for making webpages interactive.
                         Enables user interaction & provides core functionality right in
@@ -123,7 +123,7 @@
                         A way to parcel up information for storing and sending between
                         systems, even if they use different languages or operating
                         systems. I have made use of this when transferring information
-                        between the client/browser (in Javascript) and server (logic
+                        between the client/browser (in JavaScript) and server (logic
                         written in PHP), for example sending information being stored on a
                         server about a live event to multiple remote devices which are
                         taking concurrent actions. (see
@@ -149,7 +149,7 @@
                     </div>
                     <h2>React</h2>
                     <div class="skill-description">
-                        A javascript library, originally developed by facebook, which allows for lots of reuse of common components of a user interface.
+                        A JavaScript library, originally developed by facebook, which allows for lots of reuse of common components of a user interface.
                         I learned React as part of the Codecademy full stack course and can see its usefulness in more complex websites with a lot of similar components. I had already built much of <a href="projects.php#item-1">timerthing.com</a> before learning React, but would probably use it if starting that project from scratch. React's main impact has been on my thinking about how best to design a website keeping component reuse in mind.
                     </div>
                 </li>

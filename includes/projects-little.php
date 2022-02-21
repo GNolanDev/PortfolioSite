@@ -50,7 +50,7 @@
         <div class="project-screenshot">
             <img src="assets/images/hi-res/sc_euroballs.png" alt="" width="750" height="585">
         </div>
-        <div class="project-tldr">Codecademy task - javascript random quote generator</div>
+        <div class="project-tldr">Codecademy task - JavaScript random quote generator</div>
         <div class="project-description">
             <label>
                 <input class="description-checkbox" type="checkbox" hidden>
@@ -64,7 +64,7 @@
         <div class="project-link" title="website link"><a href="https://gnolandev.github.io/MixedMessages/" target="_blank">gnolandev.github.io/MixedMessages</a></div>
         <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/MixedMessages" target="_blank"><span class="sr-only">mixed messages github link</span></a></div>
         <div class=" project-technology-icons">
-            <div class="project-tech-icon js" title="Javascript"></div>
+            <div class="project-tech-icon js" title="JavaScript"></div>
             <div class="project-tech-icon html" title="HTML"></div>
             <div class="project-tech-icon css" title="CSS"></div>
         </div>
@@ -78,10 +78,10 @@
         <div class="project-description">
             <label>
                 <input class="description-checkbox" type="checkbox" hidden>
-                <span class="sr-only">Javascript mini tasks description</span>
+                <span class="sr-only">JavaScript mini tasks description</span>
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
-                    A few little javascript mini challenges, run from and outputting to the console using Node.js:
+                    A few little JavaScript mini challenges, run from and outputting to the console using Node.js:
                     <ul>
                         <li>"Find My Hat" - generate a random maze of holes (pass dimensions and difficulty as parameters) and let user navigate an icon to a 'hat' symbol using text direction inputs, showing a trail behind you.</li>
                         <li>Credit card # checker - use an algorithm to check an array of credit card numbers and output the companies any invalid numbers belong to.</li>
@@ -93,7 +93,7 @@
         <div class="project-link" title="no website link"></div>
         <div class="project-github with-text" title="github repo"><a href="https://github.com/GNolanDev/FindHatProject" target="_blank">Find My Hat</a><a href="https://github.com/GNolanDev/codecademy_sharing" target="_blank">Other js files</a></div>
         <div class=" project-technology-icons">
-            <div class="project-tech-icon js" title="Javascript"></div>
+            <div class="project-tech-icon js" title="JavaScript"></div>
             <div class="project-tech-icon node" title="Node"></div>
         </div>
     </div>
