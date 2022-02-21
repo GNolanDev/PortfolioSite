@@ -21,7 +21,7 @@
         <div class="project-technology-icons">
             <div class="project-tech-icon html" title="HTML"></div>
             <div class="project-tech-icon css" title="CSS"></div>
-            <div class="project-tech-icon js" title="Javascript"></div>
+            <div class="project-tech-icon js" title="JavaScript"></div>
             <div class="project-tech-icon php" title="PHP"></div>
         </div>
     </div>
@@ -45,7 +45,7 @@
         <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/jammming" target="_blank"><span class="sr-only">Jammming github link</span></a></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon react" title="React"></div>
-            <div class="project-tech-icon js" title="Javascript"></div>
+            <div class="project-tech-icon js" title="JavaScript"></div>
             <div class="project-tech-icon css" title="CSS"></div>
             <div class="project-tech-icon html" title="HTML"></div>
         </div>
@@ -81,7 +81,7 @@
         <div class="project-technology-icons">
             <div class="project-tech-icon react" title="React"></div>
             <div class="project-tech-icon redux" title="Redux"></div>
-            <div class="project-tech-icon js" title="Javascript"></div>
+            <div class="project-tech-icon js" title="JavaScript"></div>
             <div class="project-tech-icon css" title="CSS"></div>
             <div class="project-tech-icon html" title="HTML"></div>
         </div>
@@ -109,7 +109,7 @@
         <div class="project-technology-icons">
             <div class="project-tech-icon react" title="React"></div>
             <div class="project-tech-icon redux" title="Redux"></div>
-            <div class="project-tech-icon js" title="Javascript"></div>
+            <div class="project-tech-icon js" title="JavaScript"></div>
             <div class="project-tech-icon css" title="CSS"></div>
             <div class="project-tech-icon html" title="HTML"></div>
         </div>
@@ -135,7 +135,7 @@
         <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/appointmentplanner" target="_blank"><span class="sr-only">Appointments app github link</span></a></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon react" title="React"></div>
-            <div class="project-tech-icon js" title="Javascript"></div>
+            <div class="project-tech-icon js" title="JavaScript"></div>
             <div class="project-tech-icon css" title="CSS"></div>
             <div class="project-tech-icon html" title="HTML"></div>
         </div>
