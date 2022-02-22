@@ -12,7 +12,7 @@
                 <div class="project-description-inner moretext"></div>
                 <div class="project-description-inner">
                     My portfolio website. Originally begun as a small task during the Codecademy Full Stack Developer course, I have added further styling and content to showcase more of my work & experiment with ways to add styling to webpages.
-                    My main priority was to keep the site accessible and responsive to different screen sizes while trying out various css 'tricks' etc - this is an ongoing process, so more sections will be completed and added to over time. The codebase for the site is available on github using the link.
+                    My main priority was to keep the site accessible and responsive to different screen sizes while trying out various css 'tricks' etc - this is an ongoing process, so more sections will be completed and added to over time. The codebase for the site is available on GitHub using the link.
                 </div>
             </label>
         </div>
