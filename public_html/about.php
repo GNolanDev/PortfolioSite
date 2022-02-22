@@ -46,7 +46,7 @@
                     <h2>Personally</h2>
                     <div class="aboutme-detail">
                         <div class="aboutme-detail-inner">
-                            <p>I love to travel, as does my wife, and hope to visit South America and Asia in the future.</p>
+                            <p>I love to travel, as does my wife, and hope to visit South America and Asia in the future. One of my formative experiences was circumnavigating the USA by Greyhound bus after University.</p>
                             <p>I am an outdoors person at heart, probably due to my years in the Scout Association - I am a white water kayaking instructor, a keen coastal yacht sailor, and love all sorts of other activities: caving, snowboarding, running, open water swimming and more.</p>
                             <p>I am also a keen motorcyclist, and love spending time in Snowdonia and the Peak District enjoying the views flashing by.</p>
                             <p>I also find enjoyment in my more recent new challenge of ballroom dancing!</p>
