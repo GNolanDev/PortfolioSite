@@ -235,7 +235,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   width: 26px;
 }
 .project-github a::after {
-  content: "Github repo";
+  content: "GitHub repo";
 }
 .project-github.with-text a::after {
   content: "";
@@ -245,7 +245,7 @@ input.description-checkbox:checked ~ div.project-description-inner.moretext {
   background-image: url(../assets/icons/ic_weblink.svg);
 }
 
-/* add 'empty' icons as placeholders for any elements without a website or a github repo */
+/* add 'empty' icons as placeholders for any elements without a website or a GitHub repo */
 .project-link:empty::before,
 .project-github:empty::before {
   background-color: #fff;

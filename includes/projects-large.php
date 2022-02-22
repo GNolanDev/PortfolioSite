@@ -18,7 +18,7 @@
             </label>
         </div>
         <div class="project-link" title="website link"><a href="https://www.timerthing.com" target="_blank">www.timerthing.com</a></div>
-        <div class="project-github" title="no github repo"></div>
+        <div class="project-github" title="no GitHub repo"></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon html" title="HTML"></div>
             <div class="project-tech-icon css" title="CSS"></div>
@@ -49,7 +49,7 @@
                 <span class="sr-only">Sailor's Mate on Play Store</span>
             </a>
         </div>
-        <div class="project-github" title="no github repo"></div>
+        <div class="project-github" title="no GitHub repo"></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon android" title="Android"></div>
             <div class="project-tech-icon xml" title="XML"></div>
