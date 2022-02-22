@@ -16,7 +16,7 @@
             </label>
         </div>
         <div class="project-link" title="website link"><a href="https://gnolandev.github.io/teacosy/" target="_blank">gnolandev.github.io/teacosy</a></div>
-        <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/teacosy" target="_blank"><span class="sr-only">teacosy github link</span></a></div>
+        <div class="project-github" title="GitHub repo"><a href="https://github.com/GNolanDev/teacosy" target="_blank"><span class="sr-only">teacosy github link</span></a></div>
         <div class=" project-technology-icons">
             <div class="project-tech-icon html" title="HTML"></div>
             <div class="project-tech-icon css" title="CSS"></div>
@@ -39,7 +39,7 @@
             </label>
         </div>
         <div class="project-link" title="website link"><a href="https://gnolandev.github.io/excursion/" target="_blank">gnolandev.github.io/excursion</a></div>
-        <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/excursion" target="_blank"><span class="sr-only">excursion github link</span></a></div>
+        <div class="project-github" title="GitHub repo"><a href="https://github.com/GNolanDev/excursion" target="_blank"><span class="sr-only">excursion github link</span></a></div>
         <div class=" project-technology-icons">
             <div class="project-tech-icon html" title="HTML"></div>
             <div class="project-tech-icon css" title="CSS"></div>
@@ -62,7 +62,7 @@
             </label>
         </div>
         <div class="project-link" title="website link"><a href="https://gnolandev.github.io/MixedMessages/" target="_blank">gnolandev.github.io/MixedMessages</a></div>
-        <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/MixedMessages" target="_blank"><span class="sr-only">mixed messages github link</span></a></div>
+        <div class="project-github" title="GitHub repo"><a href="https://github.com/GNolanDev/MixedMessages" target="_blank"><span class="sr-only">mixed messages github link</span></a></div>
         <div class=" project-technology-icons">
             <div class="project-tech-icon js" title="JavaScript"></div>
             <div class="project-tech-icon html" title="HTML"></div>
@@ -91,7 +91,7 @@
             </label>
         </div>
         <div class="project-link" title="no website link"></div>
-        <div class="project-github with-text" title="github repo"><a href="https://github.com/GNolanDev/FindHatProject" target="_blank">Find My Hat</a><a href="https://github.com/GNolanDev/codecademy_sharing" target="_blank">Other js files</a></div>
+        <div class="project-github with-text" title="GitHub repo"><a href="https://github.com/GNolanDev/FindHatProject" target="_blank">Find My Hat</a><a href="https://github.com/GNolanDev/codecademy_sharing" target="_blank">Other js files</a></div>
         <div class=" project-technology-icons">
             <div class="project-tech-icon js" title="JavaScript"></div>
             <div class="project-tech-icon node" title="Node"></div>

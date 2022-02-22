@@ -17,7 +17,7 @@
             </label>
         </div>
         <div class="project-link" title="no website link"></div>
-        <div class="project-github" title="no github repo"></div>
+        <div class="project-github" title="no GitHub repo"></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon html" title="HTML"></div>
             <div class="project-tech-icon js" title="JavaScript"></div>
@@ -47,7 +47,7 @@
             </label>
         </div>
         <div class="project-link" title="no website link"></div>
-        <div class="project-github" title="no github repo"></div>
+        <div class="project-github" title="no GitHub repo"></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon html" title="HTML"></div>
             <div class="project-tech-icon php" title="PHP"></div>

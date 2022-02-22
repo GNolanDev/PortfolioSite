@@ -17,7 +17,7 @@
             </label>
         </div>
         <div class="project-link" title="website link"><a href="https://gnolan.online" target="_blank">https://gnolan.online</a></div>
-        <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/PortfolioSite" target="_blank"><span class="sr-only">portfolio website github link</span></a></div>
+        <div class="project-github" title="GitHub repo"><a href="https://github.com/GNolanDev/PortfolioSite" target="_blank"><span class="sr-only">portfolio website github link</span></a></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon html" title="HTML"></div>
             <div class="project-tech-icon css" title="CSS"></div>
@@ -42,7 +42,7 @@
             </label>
         </div>
         <div class=" project-link" title="website link"><a href="https://gnolandevjammming.netlify.app" target="_blank">https://gnolandevjammming.netlify.app</a></div>
-        <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/jammming" target="_blank"><span class="sr-only">Jammming github link</span></a></div>
+        <div class="project-github" title="GitHub repo"><a href="https://github.com/GNolanDev/jammming" target="_blank"><span class="sr-only">Jammming github link</span></a></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon react" title="React"></div>
             <div class="project-tech-icon js" title="JavaScript"></div>
@@ -77,7 +77,7 @@
         </div>
         <div class="project-link" title="website link"><a href="https://gnolandev-reddit-project.netlify.app" target="_blank">https://gnolandev-reddit-project.netlify.app</a>
         </div>
-        <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/reddit-project" target="_blank"><span class="sr-only">Reddit project github link</span></a></div>
+        <div class="project-github" title="GitHub repo"><a href="https://github.com/GNolanDev/reddit-project" target="_blank"><span class="sr-only">Reddit project github link</span></a></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon react" title="React"></div>
             <div class="project-tech-icon redux" title="Redux"></div>
@@ -105,7 +105,7 @@
         </div>
         <div class=" project-link" title="website link"><a href="https://gnolandevquiz-app.netlify.app" target="_blank">https://gnolandevquiz-app.netlify.app</a>
         </div>
-        <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/quiz-app" target="_blank"><span class="sr-only">Quiz app github link</span></a></div>
+        <div class="project-github" title="GitHub repo"><a href="https://github.com/GNolanDev/quiz-app" target="_blank"><span class="sr-only">Quiz app github link</span></a></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon react" title="React"></div>
             <div class="project-tech-icon redux" title="Redux"></div>
@@ -132,7 +132,7 @@
         </div>
         <div class="project-link" title="website link"><a href="https://gnolandevappointmentplanner.netlify.app" target="_blank">https://gnolandevappointmentplanner.netlify.app</a>
         </div>
-        <div class="project-github" title="github repo"><a href="https://github.com/GNolanDev/appointmentplanner" target="_blank"><span class="sr-only">Appointments app github link</span></a></div>
+        <div class="project-github" title="GitHub repo"><a href="https://github.com/GNolanDev/appointmentplanner" target="_blank"><span class="sr-only">Appointments app github link</span></a></div>
         <div class="project-technology-icons">
             <div class="project-tech-icon react" title="React"></div>
             <div class="project-tech-icon js" title="JavaScript"></div>
